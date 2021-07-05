@@ -1,0 +1,50 @@
+http://nhasachtinhoc.blogspot.com
+
+Source connector, Sink Connector
+
+Spring boot:
+	- Bean 
+	
+	Bài 4: The very first microservice
+	
+	Làm sao để trigger hàm đọc dữ liệu của twitter, đối tượng đó không tự trigger,
+	-> Sử dụng @PostConstruct -> Method đó gọi 1 lần khi spring bean tạo ra -> Có bao nhiêu bean tạo ra?
+	-> Sử dụng @Scope thay đổi, nếu xài "request" thì mỗi HTTP request tạo 1 bean-> Có cách nào khác?
+	-> Sử dụng interface ApplicationListener và implement method onApplicationEvent()  : param: ApplicationEvent : Có thể sử dụng vì chỉ gọi 1 lần
+	-> Cách thứ 3: implement CommandLineRunner nhận String array làm parameter
+	-> Một số cách khác như sử dụng EventListener
+	
+	-> Tạo application.yml file để cấu hình
+	
+	twitter-to-kakfa-service:
+	  twitter-keywords:
+	    - Java
+	    - Microservices
+	    - Spring
+	    - Kafka
+	    - Elasticsearch
+	    
+	  -> Muốn sử dụng nhưng đối tượng trong list này thì phải map nó qua java class -> sử dụng configuration class -> tạo package config
+	   	và tạo class TwitterToKafkaServiceConfigData -> sử dụng @ConfigurationProperties và prefix (prefix phải map với value trong application.yml
+	   	Sử dụng @Configuration để class như 1 spring bean
+	   	Tạo một list string và value phải map với value trong file application.yml
+	   	
+	   	@Data: getter, setter and hashCode and toString
+	   	
+	  -> Tạo một file logback để custom logging: Định nghĩa nhiều appenders:
+	  	- 1 cái write to console, 1 cái write to file : where we defined the structure of a message such as showing the class name, thread id, time and the log level in the message
+	  	- rolling policy: create a new file and compress and keep the old one after the file reaches a certain size.
+	  	- logger: có nhiều level: trace,debug, info, warn and error for our logger definition ->trace level will print all the log messages defined in the code. if you set the level as error, all the messages except error will be ignored.
+	  	
+	  	Trong  file TwitterToKafkaServiceApplication: LOG.info(twitterToKafkaServiceConfigData.getWelcomeMessage());
+	  	thì in ra chữ hello Microservice được định nghĩa
+	  	twitter-to-kakfa-service:
+		  twitter-keywords:
+		    - Java
+		    - Microservices
+		    - Spring
+		    - Kafka
+		    - Elasticsearch
+		  welcome-message: Hello microservices
+	  	
+	   	
