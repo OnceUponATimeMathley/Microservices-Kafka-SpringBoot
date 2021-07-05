@@ -1,0 +1,16 @@
+2021-07-06 01:53:09 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 11.0.11 on onceuponatime-LeLong-S15-X510UF with PID 63802 (/home/onceuponatime/Documents/Java/Microservices/microservices-demo/twitter-to-kafka-service/target/classes started by onceuponatime in /home/onceuponatime/Documents/Java/Microservices/microservices-demo)
+2021-07-06 01:53:09 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-07-06 01:53:10 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.043 seconds (JVM running for 1.658)
+2021-07-06 01:53:10 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2021-07-06 01:53:10 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2021-07-06 01:55:05 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 11.0.11 on onceuponatime-LeLong-S15-X510UF with PID 64172 (/home/onceuponatime/Documents/Java/Microservices/microservices-demo/twitter-to-kafka-service/target/classes started by onceuponatime in /home/onceuponatime/Documents/Java/Microservices/microservices-demo)
+2021-07-06 01:55:05 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-07-06 01:55:05 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.002 seconds (JVM running for 1.597)
+2021-07-06 01:55:05 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2021-07-06 01:55:05 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2021-07-06 01:59:42 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 11.0.11 on onceuponatime-LeLong-S15-X510UF with PID 64573 (/home/onceuponatime/Documents/Java/Microservices/microservices-demo/twitter-to-kafka-service/target/classes started by onceuponatime in /home/onceuponatime/Documents/Java/Microservices/microservices-demo)
+2021-07-06 01:59:42 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-07-06 01:59:43 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.973 seconds (JVM running for 1.539)
+2021-07-06 01:59:43 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2021-07-06 01:59:43 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2021-07-06 01:59:43 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello microservices
