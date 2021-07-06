@@ -1,0 +1,11 @@
+-> Tạo twitter4j.properties chứa oauth key và secrets cho xác thực.
+-> Tạo tài khoản ở Twitter developer console
+-> Sau khi config xong, tạo một listener để bắt đầu stream data
+-> Có thể implement StatusListener nhưng không muốn hiện thực hết các method-> extends class StatusAdapter -> override only onStatus() method
+		TwitterKafkaStatusListener
+		
+-> class Status thể hiện 1 twitter object
+
+@Component: make it a Spring managed bean. -> all classes that annotated with Component annotation will be scanned and loaded as Spring bean at runtime.
+
+-> Tạo interface StreamRunner -> Hiện thực bằng class TwitterKafkaStreamRunner -> @Component: để say này nhúng class này vào sử dụng ở class khác.
