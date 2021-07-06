@@ -1,0 +1,20 @@
+https://hocspringboot.net/2020/10/27/mockito-trong-spring-boot-la-gi/
+
+
+Tạo một Mock Test trong trường hợp chưa tạo được Twitter Account
+-> Sử dụng interface implementation
+-> Tạo class MockKafkaStreamRunner implements StreamRunner
+
+-> Random field to use it in construction of the tweet text, to get random length for a tweet.
+
+-> Tạo một đối tượng json chứa 4 field
+
+
+-> Tạo một hàm getFormattedTweet(keywords, min, max) -> Tạo mock status thay vì tweet object;
+
+-> Để chuyển đổi giữa hai Runner gọi start, ta sử dụng @ConditionalOnPropertyAnnotation
+	matchIfMissing: property-> khi  chương trình không tìm thấy twitter-to-kakfa-service.enable-mock-tweets thiết lập, hàm gốc được gọi
+	
+	Executors.newSingleThreadExecutor(): gọi lambda function -> blocking -> non blocking
+
+
