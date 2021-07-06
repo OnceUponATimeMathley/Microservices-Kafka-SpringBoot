@@ -1,0 +1,48 @@
+Kafka is an open source stream processing platform, designed to handle data feeds with low latency and high throughput. It holds the data in an immutable append only structure called topics where we can call this data as logs or events.
+
+Kafka is fast, resilient, scalable and works with high throughput. It is resilient as it relies on file system.
+
+Kafka has a natural scaling capability thanks to partitions inside each topic, which again configurable,
+
+
+If ordering is important for you, be sure that you put all related data, which requires ordering inside the same partition because ordering only guaranteed on per partition and you can achieve to put the related data to the same partition by the partitioning strategy, which we will see in the producers
+
+Kafka provides replicas where you can define a replication factor to replicate the data in each partition on different brokers.
+
+It is not possible to read a single partition by multiple consumers.
+
+
+First of all, a Kafka producer holds a buffer of unsent records per partition and send the records to the cluster using an internal batch.size property.
+
+In most cases, the default batch size value would be good enough. But you may want to play around with this value to get a better throughput by increasing batching in your system.
+
+The smaller the batch size, the less throughput, and if the batch size is too big, the memory will be wasted, since the part of the memory is allocated for batching will not be used.
+
+This is because the data will be send before the batch size limit hits.
+
+
+Using a larger batch size makes compression more efficient, and if data is larger than the batch size, and if data is larger than the batch size, it will not be batched.
+
+
+Under heavy load batching will probably be in place, however in a light load, data may not be batched until the batch size limit hits, as there is also a timeout that producer can wait before sending the data.
+
+
+linger.ms property.
+
+The buffers are sent as fast as broker can keep up, and this can be limited by max.in.flight.requests.per.connection
+
+if this sets to 1, any subsequent send requests will wait the previous one to return result.
+
+
+By default, producer will wait all the replicas to return result as the default value for acknowledge property is 'all'. By setting acknowledge to 1, only the broker that gets the request will send confirmation instead of waiting all in sync replicas.
+
+And with acknowledge 0, you can skip confirmation, but be careful, in that case, you will lose resiliency totally.
+
+
+The producer property compression.type allows to set compression on producer level. Default value is none.
+This setting can be set to none, gzip, snappy, or lz4.
+
+The compression is done by batch and improves with larger batch sizes. 
+
+
+And finally, producer config property partitioner.class sets the partition strategy. By default, partitioner class is set to DefaultPartitioner.
