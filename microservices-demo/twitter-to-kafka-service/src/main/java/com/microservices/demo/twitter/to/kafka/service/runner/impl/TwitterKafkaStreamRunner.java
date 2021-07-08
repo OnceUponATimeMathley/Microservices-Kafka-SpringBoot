@@ -2,6 +2,7 @@ package com.microservices.demo.twitter.to.kafka.service.runner.impl;
 
 import com.microservices.demo.config.TwitterToKafkaServiceConfigData;
 import com.microservices.demo.twitter.to.kafka.service.listener.TwitterKafkaStatusListener;
+import com.microservices.demo.twitter.to.kafka.service.properties.TwitterKafkaProperties;
 import com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,13 +12,13 @@ import twitter4j.FilterQuery;
 import twitter4j.TwitterException;
 import twitter4j.TwitterStream;
 import twitter4j.TwitterStreamFactory;
+import twitter4j.auth.AccessToken;
 
 import javax.annotation.PreDestroy;
 import java.util.Arrays;
 
-
 @Component
-@ConditionalOnProperty(name = "twitter-to-kakfa-service.enable-mock-tweets", havingValue = "false", matchIfMissing = true)
+@ConditionalOnProperty(name = "twitter-to-kafka-service.enable-mock-tweets", havingValue = "false", matchIfMissing = true)
 public class TwitterKafkaStreamRunner implements StreamRunner {
 
     private static final Logger LOG = LoggerFactory.getLogger(TwitterKafkaStreamRunner.class);
@@ -37,13 +38,15 @@ public class TwitterKafkaStreamRunner implements StreamRunner {
     @Override
     public void start() throws TwitterException {
         twitterStream = new TwitterStreamFactory().getInstance();
+        twitterStream.setOAuthConsumer(TwitterKafkaProperties.consumerKey, TwitterKafkaProperties.consumerSecret);
+        twitterStream.setOAuthAccessToken(new AccessToken(TwitterKafkaProperties.accessToken, TwitterKafkaProperties.accessTokenSecret));
         twitterStream.addListener(twitterKafkaStatusListener);
         addFilter();
     }
 
     @PreDestroy
-    public void shutdown(){
-        if(twitterStream != null){
+    public void shutdown() {
+        if (twitterStream != null) {
             LOG.info("Closing twitter stream!");
             twitterStream.shutdown();
         }
@@ -55,4 +58,5 @@ public class TwitterKafkaStreamRunner implements StreamRunner {
         twitterStream.filter(filterQuery);
         LOG.info("Started filtering twitter stream for keywords {}", Arrays.toString(keywords));
     }
+
 }
