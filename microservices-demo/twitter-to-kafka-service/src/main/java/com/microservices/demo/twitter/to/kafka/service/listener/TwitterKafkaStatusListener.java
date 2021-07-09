@@ -15,9 +15,4 @@ public class TwitterKafkaStatusListener extends StatusAdapter {
     public void onStatus(Status status) {
         LOG.info("Twitter status with text {}", status.getText());
     }
-
-    @Override
-    public void onException(Exception ex) {
-        ex.printStackTrace();
-    }
 }
