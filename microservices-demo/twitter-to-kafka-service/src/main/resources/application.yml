@@ -1,13 +1,11 @@
-twitter-to-kakfa-service:
+twitter-to-kafka-service:
   twitter-keywords:
-    - Twitter
     - Java
     - Microservices
-    - Spring
     - Kafka
     - Elasticsearch
-  welcome-message: Hello microservices
-  enable-mock-tweets: false
+  welcome-message: Hello microservices!
+  enable-mock-tweets: true
   mock-min-tweet-length: 5
   mock-max-tweet-length: 15
   mock-sleep-ms: 10000
@@ -33,10 +31,9 @@ kafka-producer-config:
   key-serializer-class: org.apache.kafka.common.serialization.LongSerializer
   value-serializer-class: io.confluent.kafka.serializers.KafkaAvroSerializer
   compression-type: snappy
-  acsk: all
+  acks: all
   batch-size: 16384
   batch-size-boost-factor: 100
   linger-ms: 5
   request-timeout-ms: 60000
   retry-count: 5
-
