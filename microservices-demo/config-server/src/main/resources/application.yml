@@ -7,5 +7,15 @@ logging:
     org.spring.framework.cloud.config: DEBUG
 
 spring:
-  profiles:
-    active: native
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/OnceUponATimeMathley/spring-cloud-config-server-repository-3
+          default-label: main
+          username: OnceUponATimeMathley
+          password: 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
+          clone-on-start: true
+    fail-fast: true

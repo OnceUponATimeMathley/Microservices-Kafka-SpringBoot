@@ -5,6 +5,9 @@ spring:
     config:
       server:
         git:
-          uri: file://home/onceuponatime/Documents/Java/Microservices/microservices-demo/config-server-repository
+          uri: https://github.com/OncenATimeMathley/spring-cloud-config-server-repository-3
+          default-label: main
+          username:
+          password:
           clone-on-start: true
     fail-fast: true
