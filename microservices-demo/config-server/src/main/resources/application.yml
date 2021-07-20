@@ -16,10 +16,16 @@ spring:
           uri: https://github.com/OnceUponATimeMathley/spring-cloud-config-server-repository-3
           default-label: main
           username: OnceUponATimeMathley
-          password: *****
+          password: '{cipher}da00e383beef8cebc81e812dd9f186159839e53f05343bbe3315e86e1c17ee04f46b810659526f15e6f91e597140a6c346023a1ed7c34ca626c9782386add2cf'
           clone-on-start: true
     fail-fast: true
   security:
     user:
       name: spring_cloud_user
-      password: springCloud_Pwd!
+      password: '{cipher}1e31fcfc0384ffb69aaa6169b626cf3f5d33b5a3243048a5eb32b53ebcdd60aff2e7378e240e131342d4832fdad9a51c'
+
+encrypt:
+  key: 'Demo_Pwd!2020'
+
+
+
