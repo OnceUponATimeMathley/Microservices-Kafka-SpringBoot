@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/OncenATimeMathley/spring-cloud-config-server-repository-3
+          uri: https://github.com/OnceUponATimeMathley/spring-cloud-config-server-repository-3
           default-label: main
           username:
           password:
