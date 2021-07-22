@@ -16,7 +16,7 @@ spring:
           uri: https://github.com/OnceUponATimeMathley/spring-cloud-config-server-repository-3
           default-label: main
           username: OnceUponATimeMathley
-          password: 
+          password: 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 #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
           clone-on-start: true
     fail-fast: true
   security:
