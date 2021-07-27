@@ -14,7 +14,6 @@
     <orderEntry type="module" module-name="app-config-data" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:2.5.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:5.3.8" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok:1.18.16" level="project" />
     <orderEntry type="module" module-name="elastic-config" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-data-elasticsearch:2.5.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-elasticsearch:4.2.2" level="project" />
@@ -113,6 +112,7 @@
     <orderEntry type="library" name="Maven: org.springframework.security:spring-security-config:5.5.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.security:spring-security-core:5.5.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.security:spring-security-web:5.5.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok:1.18.16" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-starter-test:2.5.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test:2.5.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test-autoconfigure:2.5.2" level="project" />
@@ -144,5 +144,6 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.3.8" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:5.3.8" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.xmlunit:xmlunit-core:2.8.2" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter-bootstrap:3.0.3" level="project" />
   </component>
 </module>
