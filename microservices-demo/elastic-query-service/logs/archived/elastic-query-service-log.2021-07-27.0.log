@@ -1,0 +1,473 @@
+2021-07-27 16:21:31 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+No spring.config.import property has been defined
+
+Action:
+
+Add a spring.config.import=configserver: property to your configuration.
+	If configuration is not required add spring.config.import=optional:configserver: instead.
+	To disable this check, set spring.cloud.config.enabled=false or 
+	spring.cloud.config.import-check.enabled=false.
+
+2021-07-27 16:22:11 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+No spring.config.import property has been defined
+
+Action:
+
+Add a spring.config.import=configserver: property to your configuration.
+	If configuration is not required add spring.config.import=optional:configserver: instead.
+	To disable this check, set spring.cloud.config.enabled=false or 
+	spring.cloud.config.import-check.enabled=false.
+
+2021-07-27 16:22:41 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2021-07-27 16:22:43 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=elastic-query-service,config-client, profiles=[elastic_query], label=null, version=375ce8a1ee1a675b803d2713f6f6c0a4973aba51, state=null
+2021-07-27 16:22:43 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/OnceUponATimeMathley/spring-cloud-config-server-repository-3/config-client-elastic_query.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/OnceUponATimeMathley/spring-cloud-config-server-repository-3/config-client.yml'}]
+2021-07-27 16:22:43 [main] INFO  c.m.d.e.q.s.ElasticQueryServiceApplication - The following profiles are active: elastic_query
+2021-07-27 16:22:44 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2021-07-27 16:22:44 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 66 ms. Found 1 Elasticsearch repository interfaces.
+2021-07-27 16:22:44 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2021-07-27 16:22:44 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2021-07-27 16:22:45 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=3a095a37-ff45-33bf-824d-8518335ecf68
+2021-07-27 16:22:45 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8183 (http)
+2021-07-27 16:22:45 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8183"]
+2021-07-27 16:22:45 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-07-27 16:22:45 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-27 16:22:45 [main] INFO  o.a.c.c.C.[.[.[/elastic-query-service] - Initializing Spring embedded WebApplicationContext
+2021-07-27 16:22:45 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2012 ms
+2021-07-27 16:22:47 [main] INFO  o.s.d.e.support.VersionInfo - Version Spring Data Elasticsearch: 4.2.2
+2021-07-27 16:22:47 [main] INFO  o.s.d.e.support.VersionInfo - Version Elasticsearch Client in build: 7.12.1
+2021-07-27 16:22:47 [main] INFO  o.s.d.e.support.VersionInfo - Version Elasticsearch Client used: 7.9.1
+2021-07-27 16:22:47 [main] WARN  o.s.d.e.support.VersionInfo - Version mismatch in between Elasticsearch Clients build/use: 7.12.1 - 7.9.1
+2021-07-27 16:22:47 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterElasticRepositoryQueryClient' defined in file [/home/onceuponatime/Documents/Java/Microservices/microservices-demo/elastic/elastic-query-client/target/classes/com/microservices/demo/elastic/query/client/service/impl/TwitterElasticRepositoryQueryClient.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'twitterElasticsearchQueryRepository' defined in com.microservices.demo.elastic.query.client.repository.TwitterElasticsearchQueryRepository defined in @EnableElasticsearchRepositories declared on ElasticsearchConfig: Invocation of init method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.elasticsearch.repository.support.SimpleElasticsearchRepository]: Constructor threw exception; nested exception is org.springframework.dao.DataAccessResourceFailureException: Connection refused; nested exception is java.lang.RuntimeException: Connection refused
+2021-07-27 16:22:47 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2021-07-27 16:22:47 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-07-27 16:22:47 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterElasticRepositoryQueryClient' defined in file [/home/onceuponatime/Documents/Java/Microservices/microservices-demo/elastic/elastic-query-client/target/classes/com/microservices/demo/elastic/query/client/service/impl/TwitterElasticRepositoryQueryClient.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'twitterElasticsearchQueryRepository' defined in com.microservices.demo.elastic.query.client.repository.TwitterElasticsearchQueryRepository defined in @EnableElasticsearchRepositories declared on ElasticsearchConfig: Invocation of init method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.elasticsearch.repository.support.SimpleElasticsearchRepository]: Constructor threw exception; nested exception is org.springframework.dao.DataAccessResourceFailureException: Connection refused; nested exception is java.lang.RuntimeException: Connection refused
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1354)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.microservices.demo.elastic.query.service.ElasticQueryServiceApplication.main(ElasticQueryServiceApplication.java:11)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'twitterElasticsearchQueryRepository' defined in com.microservices.demo.elastic.query.client.repository.TwitterElasticsearchQueryRepository defined in @EnableElasticsearchRepositories declared on ElasticsearchConfig: Invocation of init method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.elasticsearch.repository.support.SimpleElasticsearchRepository]: Constructor threw exception; nested exception is org.springframework.dao.DataAccessResourceFailureException: Connection refused; nested exception is java.lang.RuntimeException: Connection refused
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.elasticsearch.repository.support.SimpleElasticsearchRepository]: Constructor threw exception; nested exception is org.springframework.dao.DataAccessResourceFailureException: Connection refused; nested exception is java.lang.RuntimeException: Connection refused
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:225)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.lambda$getTargetRepositoryViaReflection$5(RepositoryFactorySupport.java:543)
+	at java.base/java.util.Optional.map(Optional.java:265)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getTargetRepositoryViaReflection(RepositoryFactorySupport.java:543)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getTargetRepositoryViaReflection(RepositoryFactorySupport.java:528)
+	at org.springframework.data.elasticsearch.repository.support.ElasticsearchRepositoryFactory.getTargetRepository(ElasticsearchRepositoryFactory.java:74)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:319)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:323)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:230)
+	at org.springframework.data.util.Lazy.get(Lazy.java:114)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:329)
+	at org.springframework.data.elasticsearch.repository.support.ElasticsearchRepositoryFactoryBean.afterPropertiesSet(ElasticsearchRepositoryFactoryBean.java:69)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 30 common frames omitted
+Caused by: org.springframework.dao.DataAccessResourceFailureException: Connection refused; nested exception is java.lang.RuntimeException: Connection refused
+	at org.springframework.data.elasticsearch.core.ElasticsearchExceptionTranslator.translateExceptionIfPossible(ElasticsearchExceptionTranslator.java:75)
+	at org.springframework.data.elasticsearch.core.ElasticsearchRestTemplate.translateException(ElasticsearchRestTemplate.java:402)
+	at org.springframework.data.elasticsearch.core.ElasticsearchRestTemplate.execute(ElasticsearchRestTemplate.java:385)
+	at org.springframework.data.elasticsearch.core.DefaultIndexOperations.doExists(DefaultIndexOperations.java:107)
+	at org.springframework.data.elasticsearch.core.AbstractDefaultIndexOperations.exists(AbstractDefaultIndexOperations.java:141)
+	at org.springframework.data.elasticsearch.repository.support.SimpleElasticsearchRepository.<init>(SimpleElasticsearchRepository.java:93)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:212)
+	... 43 common frames omitted
+Caused by: java.lang.RuntimeException: Connection refused
+	at org.springframework.data.elasticsearch.core.ElasticsearchRestTemplate.translateException(ElasticsearchRestTemplate.java:400)
+	... 52 common frames omitted
+Caused by: java.net.ConnectException: Connection refused
+	at org.elasticsearch.client.RestClient.extractAndWrapCause(RestClient.java:880)
+	at org.elasticsearch.client.RestClient.performRequest(RestClient.java:283)
+	at org.elasticsearch.client.RestClient.performRequest(RestClient.java:270)
+	at org.elasticsearch.client.RestHighLevelClient.internalPerformRequest(RestHighLevelClient.java:1613)
+	at org.elasticsearch.client.RestHighLevelClient.performRequest(RestHighLevelClient.java:1598)
+	at org.elasticsearch.client.IndicesClient.exists(IndicesClient.java:974)
+	at org.springframework.data.elasticsearch.core.DefaultIndexOperations.lambda$doExists$2(DefaultIndexOperations.java:107)
+	at org.springframework.data.elasticsearch.core.ElasticsearchRestTemplate.execute(ElasticsearchRestTemplate.java:383)
+	... 51 common frames omitted
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:221)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-07-27 16:25:00 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2021-07-27 16:25:02 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=elastic-query-service,config-client, profiles=[elastic_query], label=null, version=375ce8a1ee1a675b803d2713f6f6c0a4973aba51, state=null
+2021-07-27 16:25:02 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/OnceUponATimeMathley/spring-cloud-config-server-repository-3/config-client-elastic_query.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/OnceUponATimeMathley/spring-cloud-config-server-repository-3/config-client.yml'}]
+2021-07-27 16:25:02 [main] INFO  c.m.d.e.q.s.ElasticQueryServiceApplication - The following profiles are active: elastic_query
+2021-07-27 16:25:02 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2021-07-27 16:25:02 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Elasticsearch repository interfaces.
+2021-07-27 16:25:02 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2021-07-27 16:25:02 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 Elasticsearch repository interfaces.
+2021-07-27 16:25:02 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2021-07-27 16:25:02 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2021-07-27 16:25:03 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=695d90ef-157f-37ea-b24e-b886fe50f1c1
+2021-07-27 16:25:03 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8183 (http)
+2021-07-27 16:25:03 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8183"]
+2021-07-27 16:25:03 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-07-27 16:25:03 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-27 16:25:03 [main] INFO  o.a.c.c.C.[.[.[/elastic-query-service] - Initializing Spring embedded WebApplicationContext
+2021-07-27 16:25:03 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1197 ms
+2021-07-27 16:25:04 [main] INFO  o.s.d.e.support.VersionInfo - Version Spring Data Elasticsearch: 4.2.2
+2021-07-27 16:25:04 [main] INFO  o.s.d.e.support.VersionInfo - Version Elasticsearch Client in build: 7.12.1
+2021-07-27 16:25:04 [main] INFO  o.s.d.e.support.VersionInfo - Version Elasticsearch Client used: 7.9.1
+2021-07-27 16:25:04 [main] WARN  o.s.d.e.support.VersionInfo - Version mismatch in between Elasticsearch Clients build/use: 7.12.1 - 7.9.1
+2021-07-27 16:25:04 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterElasticRepositoryQueryClient' defined in file [/home/onceuponatime/Documents/Java/Microservices/microservices-demo/elastic/elastic-query-client/target/classes/com/microservices/demo/elastic/query/client/service/impl/TwitterElasticRepositoryQueryClient.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.microservices.demo.elastic.query.client.repository.TwitterElasticsearchQueryRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2021-07-27 16:25:04 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2021-07-27 16:25:04 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-07-27 16:25:04 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.microservices.demo.elastic.query.client.service.impl.TwitterElasticRepositoryQueryClient required a bean of type 'com.microservices.demo.elastic.query.client.repository.TwitterElasticsearchQueryRepository' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.microservices.demo.elastic.query.client.repository.TwitterElasticsearchQueryRepository' in your configuration.
+
+2021-07-27 17:45:34 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2021-07-27 17:45:37 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=elastic-query-service,config-client, profiles=[elastic_query], label=null, version=c5958165eed8ccb1b998771894410ce0ec6ac008, state=null
+2021-07-27 17:45:37 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/OnceUponATimeMathley/spring-cloud-config-server-repository-3/config-client-elastic_query.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/OnceUponATimeMathley/spring-cloud-config-server-repository-3/config-client.yml'}]
+2021-07-27 17:45:37 [main] INFO  c.m.d.e.q.s.ElasticQueryServiceApplication - The following profiles are active: elastic_query
+2021-07-27 17:45:38 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2021-07-27 17:45:38 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 1 Elasticsearch repository interfaces.
+2021-07-27 17:45:38 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2021-07-27 17:45:38 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2021-07-27 17:45:38 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=3a095a37-ff45-33bf-824d-8518335ecf68
+2021-07-27 17:45:38 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8183 (http)
+2021-07-27 17:45:38 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8183"]
+2021-07-27 17:45:38 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-07-27 17:45:38 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-27 17:45:38 [main] INFO  o.a.c.c.C.[.[.[/elastic-query-service] - Initializing Spring embedded WebApplicationContext
+2021-07-27 17:45:38 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1157 ms
+2021-07-27 17:45:39 [main] INFO  o.s.d.e.support.VersionInfo - Version Spring Data Elasticsearch: 4.2.2
+2021-07-27 17:45:39 [main] INFO  o.s.d.e.support.VersionInfo - Version Elasticsearch Client in build: 7.12.1
+2021-07-27 17:45:39 [main] INFO  o.s.d.e.support.VersionInfo - Version Elasticsearch Client used: 7.9.1
+2021-07-27 17:45:39 [main] WARN  o.s.d.e.support.VersionInfo - Version mismatch in between Elasticsearch Clients build/use: 7.12.1 - 7.9.1
+2021-07-27 17:45:39 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterElasticRepositoryQueryClient' defined in file [/home/onceuponatime/Documents/Java/Microservices/microservices-demo/elastic/elastic-query-client/target/classes/com/microservices/demo/elastic/query/client/service/impl/TwitterElasticRepositoryQueryClient.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'twitterElasticsearchQueryRepository' defined in com.microservices.demo.elastic.query.client.repository.TwitterElasticsearchQueryRepository defined in @EnableElasticsearchRepositories declared on ElasticsearchConfig: Invocation of init method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.elasticsearch.repository.support.SimpleElasticsearchRepository]: Constructor threw exception; nested exception is org.springframework.dao.DataAccessResourceFailureException: Connection refused; nested exception is java.lang.RuntimeException: Connection refused
+2021-07-27 17:45:39 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2021-07-27 17:45:39 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-07-27 17:45:39 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterElasticRepositoryQueryClient' defined in file [/home/onceuponatime/Documents/Java/Microservices/microservices-demo/elastic/elastic-query-client/target/classes/com/microservices/demo/elastic/query/client/service/impl/TwitterElasticRepositoryQueryClient.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'twitterElasticsearchQueryRepository' defined in com.microservices.demo.elastic.query.client.repository.TwitterElasticsearchQueryRepository defined in @EnableElasticsearchRepositories declared on ElasticsearchConfig: Invocation of init method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.elasticsearch.repository.support.SimpleElasticsearchRepository]: Constructor threw exception; nested exception is org.springframework.dao.DataAccessResourceFailureException: Connection refused; nested exception is java.lang.RuntimeException: Connection refused
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1354)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.microservices.demo.elastic.query.service.ElasticQueryServiceApplication.main(ElasticQueryServiceApplication.java:11)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'twitterElasticsearchQueryRepository' defined in com.microservices.demo.elastic.query.client.repository.TwitterElasticsearchQueryRepository defined in @EnableElasticsearchRepositories declared on ElasticsearchConfig: Invocation of init method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.elasticsearch.repository.support.SimpleElasticsearchRepository]: Constructor threw exception; nested exception is org.springframework.dao.DataAccessResourceFailureException: Connection refused; nested exception is java.lang.RuntimeException: Connection refused
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.elasticsearch.repository.support.SimpleElasticsearchRepository]: Constructor threw exception; nested exception is org.springframework.dao.DataAccessResourceFailureException: Connection refused; nested exception is java.lang.RuntimeException: Connection refused
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:225)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.lambda$getTargetRepositoryViaReflection$5(RepositoryFactorySupport.java:543)
+	at java.base/java.util.Optional.map(Optional.java:265)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getTargetRepositoryViaReflection(RepositoryFactorySupport.java:543)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getTargetRepositoryViaReflection(RepositoryFactorySupport.java:528)
+	at org.springframework.data.elasticsearch.repository.support.ElasticsearchRepositoryFactory.getTargetRepository(ElasticsearchRepositoryFactory.java:74)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:319)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:323)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:230)
+	at org.springframework.data.util.Lazy.get(Lazy.java:114)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:329)
+	at org.springframework.data.elasticsearch.repository.support.ElasticsearchRepositoryFactoryBean.afterPropertiesSet(ElasticsearchRepositoryFactoryBean.java:69)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 30 common frames omitted
+Caused by: org.springframework.dao.DataAccessResourceFailureException: Connection refused; nested exception is java.lang.RuntimeException: Connection refused
+	at org.springframework.data.elasticsearch.core.ElasticsearchExceptionTranslator.translateExceptionIfPossible(ElasticsearchExceptionTranslator.java:75)
+	at org.springframework.data.elasticsearch.core.ElasticsearchRestTemplate.translateException(ElasticsearchRestTemplate.java:402)
+	at org.springframework.data.elasticsearch.core.ElasticsearchRestTemplate.execute(ElasticsearchRestTemplate.java:385)
+	at org.springframework.data.elasticsearch.core.DefaultIndexOperations.doExists(DefaultIndexOperations.java:107)
+	at org.springframework.data.elasticsearch.core.AbstractDefaultIndexOperations.exists(AbstractDefaultIndexOperations.java:141)
+	at org.springframework.data.elasticsearch.repository.support.SimpleElasticsearchRepository.<init>(SimpleElasticsearchRepository.java:93)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:212)
+	... 43 common frames omitted
+Caused by: java.lang.RuntimeException: Connection refused
+	at org.springframework.data.elasticsearch.core.ElasticsearchRestTemplate.translateException(ElasticsearchRestTemplate.java:400)
+	... 52 common frames omitted
+Caused by: java.net.ConnectException: Connection refused
+	at org.elasticsearch.client.RestClient.extractAndWrapCause(RestClient.java:880)
+	at org.elasticsearch.client.RestClient.performRequest(RestClient.java:283)
+	at org.elasticsearch.client.RestClient.performRequest(RestClient.java:270)
+	at org.elasticsearch.client.RestHighLevelClient.internalPerformRequest(RestHighLevelClient.java:1613)
+	at org.elasticsearch.client.RestHighLevelClient.performRequest(RestHighLevelClient.java:1598)
+	at org.elasticsearch.client.IndicesClient.exists(IndicesClient.java:974)
+	at org.springframework.data.elasticsearch.core.DefaultIndexOperations.lambda$doExists$2(DefaultIndexOperations.java:107)
+	at org.springframework.data.elasticsearch.core.ElasticsearchRestTemplate.execute(ElasticsearchRestTemplate.java:383)
+	... 51 common frames omitted
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:221)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-07-27 17:53:37 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2021-07-27 17:53:41 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=elastic-query-service,config-client, profiles=[elastic_query], label=null, version=c5958165eed8ccb1b998771894410ce0ec6ac008, state=null
+2021-07-27 17:53:41 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/OnceUponATimeMathley/spring-cloud-config-server-repository-3/config-client-elastic_query.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/OnceUponATimeMathley/spring-cloud-config-server-repository-3/config-client.yml'}]
+2021-07-27 17:53:41 [main] INFO  c.m.d.e.q.s.ElasticQueryServiceApplication - The following profiles are active: elastic_query
+2021-07-27 17:53:43 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2021-07-27 17:53:43 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 90 ms. Found 1 Elasticsearch repository interfaces.
+2021-07-27 17:53:43 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2021-07-27 17:53:43 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2021-07-27 17:53:44 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=3a095a37-ff45-33bf-824d-8518335ecf68
+2021-07-27 17:53:45 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8183 (http)
+2021-07-27 17:53:45 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8183"]
+2021-07-27 17:53:45 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-07-27 17:53:45 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-27 17:53:45 [main] INFO  o.a.c.c.C.[.[.[/elastic-query-service] - Initializing Spring embedded WebApplicationContext
+2021-07-27 17:53:45 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4084 ms
+2021-07-27 17:53:46 [main] INFO  o.s.d.e.support.VersionInfo - Version Spring Data Elasticsearch: 4.2.2
+2021-07-27 17:53:46 [main] INFO  o.s.d.e.support.VersionInfo - Version Elasticsearch Client in build: 7.12.1
+2021-07-27 17:53:46 [main] INFO  o.s.d.e.support.VersionInfo - Version Elasticsearch Client used: 7.9.1
+2021-07-27 17:53:46 [main] WARN  o.s.d.e.support.VersionInfo - Version mismatch in between Elasticsearch Clients build/use: 7.12.1 - 7.9.1
+2021-07-27 17:53:46 [main] INFO  o.s.d.e.support.VersionInfo - Version Elasticsearch cluster: 7.9.1
+2021-07-27 17:53:47 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 2953d39d-46e8-4459-b360-65e4287722c3
+
+2021-07-27 17:53:48 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@32e7b78d, org.springframework.security.web.context.SecurityContextPersistenceFilter@1c815814, org.springframework.security.web.header.HeaderWriterFilter@71e7c13f, org.springframework.security.web.csrf.CsrfFilter@63eea8c4, org.springframework.security.web.authentication.logout.LogoutFilter@1b8ee69d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5a78b52b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2b400bd0, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4583b617, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3e9b3b3c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@73da303e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7f77e065, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@22a63740, org.springframework.security.web.session.SessionManagementFilter@174e1b99, org.springframework.security.web.access.ExceptionTranslationFilter@5960f17, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@71f29d91]
+2021-07-27 17:53:49 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2021-07-27 17:53:49 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8183"]
+2021-07-27 17:53:49 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8183 (http) with context path '/elastic-query-service'
+2021-07-27 17:53:50 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2021-07-27 17:53:50 [main] INFO  c.m.d.e.q.s.ElasticQueryServiceApplication - Started ElasticQueryServiceApplication in 21.996 seconds (JVM running for 26.249)
+2021-07-27 17:53:58 [http-nio-8183-exec-3] INFO  o.a.c.c.C.[.[.[/elastic-query-service] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-27 17:53:58 [http-nio-8183-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-07-27 17:53:58 [http-nio-8183-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-07-27 17:53:58 [http-nio-8183-exec-3] WARN  o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [119] milliseconds.
+2021-07-27 18:15:33 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2021-07-27 18:15:35 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=elastic-query-service,config-client, profiles=[elastic_query], label=null, version=c5958165eed8ccb1b998771894410ce0ec6ac008, state=null
+2021-07-27 18:15:35 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/OnceUponATimeMathley/spring-cloud-config-server-repository-3/config-client-elastic_query.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/OnceUponATimeMathley/spring-cloud-config-server-repository-3/config-client.yml'}]
+2021-07-27 18:15:35 [main] INFO  c.m.d.e.q.s.ElasticQueryServiceApplication - The following profiles are active: elastic_query
+2021-07-27 18:15:36 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2021-07-27 18:15:36 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 59 ms. Found 1 Elasticsearch repository interfaces.
+2021-07-27 18:15:36 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2021-07-27 18:15:36 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2021-07-27 18:15:37 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=d895601c-2f4a-37d4-9fd8-495f79b177de
+2021-07-27 18:15:38 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8183 (http)
+2021-07-27 18:15:38 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8183"]
+2021-07-27 18:15:38 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-07-27 18:15:38 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-27 18:15:38 [main] INFO  o.a.c.c.C.[.[.[/elastic-query-service] - Initializing Spring embedded WebApplicationContext
+2021-07-27 18:15:38 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2822 ms
+2021-07-27 18:15:40 [main] INFO  o.s.d.e.support.VersionInfo - Version Spring Data Elasticsearch: 4.2.2
+2021-07-27 18:15:40 [main] INFO  o.s.d.e.support.VersionInfo - Version Elasticsearch Client in build: 7.12.1
+2021-07-27 18:15:40 [main] INFO  o.s.d.e.support.VersionInfo - Version Elasticsearch Client used: 7.9.1
+2021-07-27 18:15:40 [main] WARN  o.s.d.e.support.VersionInfo - Version mismatch in between Elasticsearch Clients build/use: 7.12.1 - 7.9.1
+2021-07-27 18:15:40 [main] INFO  o.s.d.e.support.VersionInfo - Version Elasticsearch cluster: 7.9.1
+2021-07-27 18:15:41 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.IllegalArgumentException: username cannot be null
+2021-07-27 18:15:41 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2021-07-27 18:15:41 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-07-27 18:15:41 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.IllegalArgumentException: username cannot be null
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.microservices.demo.elastic.query.service.ElasticQueryServiceApplication.main(ElasticQueryServiceApplication.java:11)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.IllegalArgumentException: username cannot be null
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 21 common frames omitted
+Caused by: java.lang.IllegalArgumentException: username cannot be null
+	at org.springframework.util.Assert.notNull(Assert.java:201)
+	at org.springframework.security.core.userdetails.User$UserBuilder.username(User.java:357)
+	at org.springframework.security.core.userdetails.User.withUsername(User.java:216)
+	at org.springframework.security.config.annotation.authentication.configurers.provisioning.UserDetailsManagerConfigurer$UserDetailsBuilder.username(UserDetailsManagerConfigurer.java:138)
+	at org.springframework.security.config.annotation.authentication.configurers.provisioning.UserDetailsManagerConfigurer$UserDetailsBuilder.access$100(UserDetailsManagerConfigurer.java:108)
+	at org.springframework.security.config.annotation.authentication.configurers.provisioning.UserDetailsManagerConfigurer.withUser(UserDetailsManagerConfigurer.java:99)
+	at com.microservices.demo.elastic.query.service.config.WebSecurityConfig.configure(WebSecurityConfig.java:37)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.authenticationManager(WebSecurityConfigurerAdapter.java:264)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getHttp(WebSecurityConfigurerAdapter.java:204)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:315)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:93)
+	at com.microservices.demo.elastic.query.service.config.WebSecurityConfig$$EnhancerBySpringCGLIB$$875e4436.init(<generated>)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.init(AbstractConfiguredSecurityBuilder.java:338)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:300)
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:38)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.springSecurityFilterChain(WebSecurityConfiguration.java:127)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 22 common frames omitted
+2021-07-27 18:18:13 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2021-07-27 18:18:17 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=elastic-query-service,config-client, profiles=[elastic_query], label=null, version=59396941ee25637efb83da0acfbab7dea34b0a4f, state=null
+2021-07-27 18:18:17 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/OnceUponATimeMathley/spring-cloud-config-server-repository-3/config-client-elastic_query.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/OnceUponATimeMathley/spring-cloud-config-server-repository-3/config-client.yml'}]
+2021-07-27 18:18:17 [main] INFO  c.m.d.e.q.s.ElasticQueryServiceApplication - The following profiles are active: elastic_query
+2021-07-27 18:18:17 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2021-07-27 18:18:17 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60 ms. Found 1 Elasticsearch repository interfaces.
+2021-07-27 18:18:17 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2021-07-27 18:18:17 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2021-07-27 18:18:17 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=d895601c-2f4a-37d4-9fd8-495f79b177de
+2021-07-27 18:18:18 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8183 (http)
+2021-07-27 18:18:18 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8183"]
+2021-07-27 18:18:18 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-07-27 18:18:18 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-27 18:18:18 [main] INFO  o.a.c.c.C.[.[.[/elastic-query-service] - Initializing Spring embedded WebApplicationContext
+2021-07-27 18:18:18 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1080 ms
+2021-07-27 18:18:18 [main] INFO  o.s.d.e.support.VersionInfo - Version Spring Data Elasticsearch: 4.2.2
+2021-07-27 18:18:18 [main] INFO  o.s.d.e.support.VersionInfo - Version Elasticsearch Client in build: 7.12.1
+2021-07-27 18:18:18 [main] INFO  o.s.d.e.support.VersionInfo - Version Elasticsearch Client used: 7.9.1
+2021-07-27 18:18:18 [main] WARN  o.s.d.e.support.VersionInfo - Version mismatch in between Elasticsearch Clients build/use: 7.12.1 - 7.9.1
+2021-07-27 18:18:18 [main] INFO  o.s.d.e.support.VersionInfo - Version Elasticsearch cluster: 7.9.1
+2021-07-27 18:18:19 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1e258d3b, org.springframework.security.web.context.SecurityContextPersistenceFilter@4fd37449, org.springframework.security.web.header.HeaderWriterFilter@6de33fde, org.springframework.security.web.authentication.logout.LogoutFilter@5bde6148, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1da5c19d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@43445fc6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@70c31b17, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2b6fcca1, org.springframework.security.web.session.SessionManagementFilter@5bb99d1d, org.springframework.security.web.access.ExceptionTranslationFilter@78b9155e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3e6acec2]
+2021-07-27 18:18:20 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2021-07-27 18:18:21 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8183"]
+2021-07-27 18:18:21 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8183 (http) with context path '/elastic-query-service'
+2021-07-27 18:18:22 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2021-07-27 18:18:22 [main] INFO  c.m.d.e.q.s.ElasticQueryServiceApplication - Started ElasticQueryServiceApplication in 12.254 seconds (JVM running for 13.224)
+2021-07-27 18:18:29 [http-nio-8183-exec-3] INFO  o.a.c.c.C.[.[.[/elastic-query-service] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-27 18:18:29 [http-nio-8183-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-07-27 18:18:29 [http-nio-8183-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-07-27 18:21:35 [http-nio-8183-exec-9] INFO  c.m.d.e.q.s.a.ElasticDocumentController - Elasticsearch returned 0 of documents
+2021-07-27 18:24:29 [http-nio-8183-exec-3] INFO  c.m.d.e.q.s.a.ElasticDocumentController - Elasticsearch returned 1 of documents
+2021-07-27 19:03:11 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2021-07-27 19:03:16 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=elastic-query-service,config-client, profiles=[elastic_query], label=null, version=59396941ee25637efb83da0acfbab7dea34b0a4f, state=null
+2021-07-27 19:03:16 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/OnceUponATimeMathley/spring-cloud-config-server-repository-3/config-client-elastic_query.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/OnceUponATimeMathley/spring-cloud-config-server-repository-3/config-client.yml'}]
+2021-07-27 19:03:16 [main] INFO  c.m.d.e.q.s.ElasticQueryServiceApplication - The following profiles are active: elastic_query
+2021-07-27 19:03:18 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2021-07-27 19:03:18 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 54 ms. Found 1 Elasticsearch repository interfaces.
+2021-07-27 19:03:18 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2021-07-27 19:03:18 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2021-07-27 19:03:18 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=3a20c120-7009-3347-833e-08e15990099a
+2021-07-27 19:03:19 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8183 (http)
+2021-07-27 19:03:19 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8183"]
+2021-07-27 19:03:19 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-07-27 19:03:19 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-27 19:03:19 [main] INFO  o.a.c.c.C.[.[.[/elastic-query-service] - Initializing Spring embedded WebApplicationContext
+2021-07-27 19:03:19 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2997 ms
+2021-07-27 19:03:21 [main] INFO  o.s.d.e.support.VersionInfo - Version Spring Data Elasticsearch: 4.2.2
+2021-07-27 19:03:21 [main] INFO  o.s.d.e.support.VersionInfo - Version Elasticsearch Client in build: 7.12.1
+2021-07-27 19:03:21 [main] INFO  o.s.d.e.support.VersionInfo - Version Elasticsearch Client used: 7.9.1
+2021-07-27 19:03:21 [main] WARN  o.s.d.e.support.VersionInfo - Version mismatch in between Elasticsearch Clients build/use: 7.12.1 - 7.9.1
+2021-07-27 19:03:21 [main] INFO  o.s.d.e.support.VersionInfo - Version Elasticsearch cluster: 7.9.1
+2021-07-27 19:03:21 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@62ab5e63, org.springframework.security.web.context.SecurityContextPersistenceFilter@ce2eaa7, org.springframework.security.web.header.HeaderWriterFilter@75b363c3, org.springframework.security.web.authentication.logout.LogoutFilter@1d806de6, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2e7a9db7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@304744a1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@460eb276, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@e91facf, org.springframework.security.web.session.SessionManagementFilter@18513c23, org.springframework.security.web.access.ExceptionTranslationFilter@6231f77a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@e706aa]
+2021-07-27 19:03:23 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2021-07-27 19:03:23 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8183"]
+2021-07-27 19:03:23 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8183 (http) with context path '/elastic-query-service'
+2021-07-27 19:03:24 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2021-07-27 19:03:24 [main] INFO  c.m.d.e.q.s.ElasticQueryServiceApplication - Started ElasticQueryServiceApplication in 17.592 seconds (JVM running for 19.99)
+2021-07-27 19:03:26 [http-nio-8183-exec-2] INFO  o.a.c.c.C.[.[.[/elastic-query-service] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-27 19:03:26 [http-nio-8183-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-07-27 19:03:26 [http-nio-8183-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-07-27 19:03:26 [http-nio-8183-exec-2] WARN  o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [118] milliseconds.
+2021-07-27 19:03:26 [http-nio-8183-exec-2] INFO  c.m.d.e.q.s.b.i.TwitterElasticQueryService - Querying elasticsearch by text test
+2021-07-27 19:03:27 [http-nio-8183-exec-2] INFO  c.m.d.e.q.c.s.i.TwitterElasticRepositoryQueryClient - 1 of documents with text test retrieved successfully
+2021-07-27 19:03:27 [http-nio-8183-exec-2] INFO  c.m.d.e.q.s.a.ElasticDocumentController - Elasticsearch returned 1 of documents
+2021-07-27 19:03:34 [http-nio-8183-exec-3] INFO  c.m.d.e.q.s.b.i.TwitterElasticQueryService - Querying elasticsearch by id 1
+2021-07-27 19:03:34 [http-nio-8183-exec-3] INFO  c.m.d.e.q.c.s.i.TwitterElasticRepositoryQueryClient - Document with id 1 retrieved successfully
