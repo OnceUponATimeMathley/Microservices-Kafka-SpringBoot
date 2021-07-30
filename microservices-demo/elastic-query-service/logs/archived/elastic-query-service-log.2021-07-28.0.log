@@ -1,0 +1,100 @@
+2021-07-28 13:38:59 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-07-28 13:39:02 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2021-07-28 13:39:16 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=elastic-query-service,config-client, profiles=[elastic_query], label=null, version=59396941ee25637efb83da0acfbab7dea34b0a4f, state=null
+2021-07-28 13:39:16 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/OnceUponATimeMathley/spring-cloud-config-server-repository-3/config-client-elastic_query.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/OnceUponATimeMathley/spring-cloud-config-server-repository-3/config-client.yml'}]
+2021-07-28 13:39:16 [main] INFO  c.m.d.e.q.s.ElasticQueryServiceApplication - The following profiles are active: elastic_query
+2021-07-28 13:39:18 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2021-07-28 13:39:18 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 72 ms. Found 1 Elasticsearch repository interfaces.
+2021-07-28 13:39:18 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2021-07-28 13:39:18 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2021-07-28 13:39:19 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=28341774-a2f2-3298-bfb2-b56af08b55d7
+2021-07-28 13:39:19 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8183 (http)
+2021-07-28 13:39:19 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8183"]
+2021-07-28 13:39:19 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-07-28 13:39:19 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-28 13:39:19 [main] INFO  o.a.c.c.C.[.[.[/elastic-query-service] - Initializing Spring embedded WebApplicationContext
+2021-07-28 13:39:19 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2641 ms
+2021-07-28 13:39:21 [main] INFO  o.s.d.e.support.VersionInfo - Version Spring Data Elasticsearch: 4.2.2
+2021-07-28 13:39:21 [main] INFO  o.s.d.e.support.VersionInfo - Version Elasticsearch Client in build: 7.12.1
+2021-07-28 13:39:21 [main] INFO  o.s.d.e.support.VersionInfo - Version Elasticsearch Client used: 7.9.1
+2021-07-28 13:39:21 [main] WARN  o.s.d.e.support.VersionInfo - Version mismatch in between Elasticsearch Clients build/use: 7.12.1 - 7.9.1
+2021-07-28 13:39:21 [main] INFO  o.s.d.e.support.VersionInfo - Version Elasticsearch cluster: 7.9.1
+2021-07-28 13:39:22 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@36511772, org.springframework.security.web.context.SecurityContextPersistenceFilter@4e10a320, org.springframework.security.web.header.HeaderWriterFilter@69de72ec, org.springframework.security.web.authentication.logout.LogoutFilter@53e4a19e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@45ad3cd8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@352c3d70, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4c6fc3e7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@51869ad6, org.springframework.security.web.session.SessionManagementFilter@25dcf1b6, org.springframework.security.web.access.ExceptionTranslationFilter@356f20b7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@44e08a7a]
+2021-07-28 13:39:24 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2021-07-28 13:39:24 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8183"]
+2021-07-28 13:39:24 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8183 (http) with context path '/elastic-query-service'
+2021-07-28 13:39:25 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2021-07-28 13:39:25 [main] INFO  c.m.d.e.q.s.ElasticQueryServiceApplication - Started ElasticQueryServiceApplication in 27.123 seconds (JVM running for 28.177)
+2021-07-28 13:39:44 [http-nio-8183-exec-1] INFO  o.a.c.c.C.[.[.[/elastic-query-service] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-28 13:39:44 [http-nio-8183-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-07-28 13:39:44 [http-nio-8183-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-07-28 13:40:44 [http-nio-8183-exec-9] INFO  c.m.d.e.q.s.b.i.TwitterElasticQueryService - Querying all documents in elasticsearch
+2021-07-28 13:40:46 [http-nio-8183-exec-9] INFO  c.m.d.e.q.c.s.i.TwitterElasticRepositoryQueryClient - 500 number of documents retrieved successfully
+2021-07-28 13:40:46 [http-nio-8183-exec-9] INFO  c.m.d.e.q.s.a.ElasticDocumentController - Elasticsearch returned 500 of documents
+2021-07-28 13:41:40 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-07-28 13:41:42 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2021-07-28 13:41:44 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=elastic-query-service,config-client, profiles=[elastic_query], label=null, version=59396941ee25637efb83da0acfbab7dea34b0a4f, state=null
+2021-07-28 13:41:44 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/OnceUponATimeMathley/spring-cloud-config-server-repository-3/config-client-elastic_query.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/OnceUponATimeMathley/spring-cloud-config-server-repository-3/config-client.yml'}]
+2021-07-28 13:41:44 [main] INFO  c.m.d.e.q.s.ElasticQueryServiceApplication - The following profiles are active: elastic_query
+2021-07-28 13:41:44 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2021-07-28 13:41:44 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39 ms. Found 1 Elasticsearch repository interfaces.
+2021-07-28 13:41:44 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2021-07-28 13:41:44 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2021-07-28 13:41:45 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=28341774-a2f2-3298-bfb2-b56af08b55d7
+2021-07-28 13:41:45 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8183 (http)
+2021-07-28 13:41:45 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8183"]
+2021-07-28 13:41:45 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-07-28 13:41:45 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-28 13:41:45 [main] INFO  o.a.c.c.C.[.[.[/elastic-query-service] - Initializing Spring embedded WebApplicationContext
+2021-07-28 13:41:45 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1347 ms
+2021-07-28 13:41:46 [main] INFO  o.s.d.e.support.VersionInfo - Version Spring Data Elasticsearch: 4.2.2
+2021-07-28 13:41:46 [main] INFO  o.s.d.e.support.VersionInfo - Version Elasticsearch Client in build: 7.12.1
+2021-07-28 13:41:46 [main] INFO  o.s.d.e.support.VersionInfo - Version Elasticsearch Client used: 7.9.1
+2021-07-28 13:41:46 [main] WARN  o.s.d.e.support.VersionInfo - Version mismatch in between Elasticsearch Clients build/use: 7.12.1 - 7.9.1
+2021-07-28 13:41:46 [main] INFO  o.s.d.e.support.VersionInfo - Version Elasticsearch cluster: 7.9.1
+2021-07-28 13:41:46 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7497a554, org.springframework.security.web.context.SecurityContextPersistenceFilter@69de72ec, org.springframework.security.web.header.HeaderWriterFilter@acd3460, org.springframework.security.web.authentication.logout.LogoutFilter@6d4502ca, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@53e4a19e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6d6f6ca9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4213bc3e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5dd23809, org.springframework.security.web.session.SessionManagementFilter@356f20b7, org.springframework.security.web.access.ExceptionTranslationFilter@7a3a49e5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@319b1c77]
+2021-07-28 13:41:48 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2021-07-28 13:41:48 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8183"]
+2021-07-28 13:41:48 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8183 (http) with context path '/elastic-query-service'
+2021-07-28 13:41:49 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2021-07-28 13:41:49 [main] INFO  c.m.d.e.q.s.ElasticQueryServiceApplication - Started ElasticQueryServiceApplication in 10.629 seconds (JVM running for 11.45)
+2021-07-28 13:42:13 [http-nio-8183-exec-1] INFO  o.a.c.c.C.[.[.[/elastic-query-service] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-28 13:42:13 [http-nio-8183-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-07-28 13:42:13 [http-nio-8183-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-07-28 13:42:13 [http-nio-8183-exec-1] INFO  c.m.d.e.q.s.b.i.TwitterElasticQueryService - Querying all documents in elasticsearch
+2021-07-28 13:42:14 [http-nio-8183-exec-1] INFO  c.m.d.e.q.c.s.i.TwitterElasticRepositoryQueryClient - 500 number of documents retrieved successfully
+2021-07-28 13:42:14 [http-nio-8183-exec-1] INFO  c.m.d.e.q.s.a.ElasticDocumentController - Elasticsearch returned 500 of documents
+2021-07-28 15:21:58 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-07-28 15:22:01 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2021-07-28 15:22:05 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=elastic-query-service,config-client, profiles=[elastic_query], label=null, version=59396941ee25637efb83da0acfbab7dea34b0a4f, state=null
+2021-07-28 15:22:05 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/OnceUponATimeMathley/spring-cloud-config-server-repository-3/config-client-elastic_query.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/OnceUponATimeMathley/spring-cloud-config-server-repository-3/config-client.yml'}]
+2021-07-28 15:22:05 [main] INFO  c.m.d.e.q.s.ElasticQueryServiceApplication - The following profiles are active: elastic_query
+2021-07-28 15:22:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2021-07-28 15:22:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 52 ms. Found 1 Elasticsearch repository interfaces.
+2021-07-28 15:22:09 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2021-07-28 15:22:09 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2021-07-28 15:22:09 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=28341774-a2f2-3298-bfb2-b56af08b55d7
+2021-07-28 15:22:09 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8183 (http)
+2021-07-28 15:22:09 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8183"]
+2021-07-28 15:22:09 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-07-28 15:22:09 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-28 15:22:09 [main] INFO  o.a.c.c.C.[.[.[/elastic-query-service] - Initializing Spring embedded WebApplicationContext
+2021-07-28 15:22:09 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4054 ms
+2021-07-28 15:22:12 [main] INFO  o.s.d.e.support.VersionInfo - Version Spring Data Elasticsearch: 4.2.2
+2021-07-28 15:22:12 [main] INFO  o.s.d.e.support.VersionInfo - Version Elasticsearch Client in build: 7.12.1
+2021-07-28 15:22:12 [main] INFO  o.s.d.e.support.VersionInfo - Version Elasticsearch Client used: 7.9.1
+2021-07-28 15:22:12 [main] WARN  o.s.d.e.support.VersionInfo - Version mismatch in between Elasticsearch Clients build/use: 7.12.1 - 7.9.1
+2021-07-28 15:22:12 [main] INFO  o.s.d.e.support.VersionInfo - Version Elasticsearch cluster: 7.9.1
+2021-07-28 15:22:12 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@29188050, org.springframework.security.web.context.SecurityContextPersistenceFilter@4e52d2f2, org.springframework.security.web.header.HeaderWriterFilter@6ae6d078, org.springframework.security.web.authentication.logout.LogoutFilter@398f0516, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@45c408a4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4882b9a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@d0fabc8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3f122cdc, org.springframework.security.web.session.SessionManagementFilter@430aae8e, org.springframework.security.web.access.ExceptionTranslationFilter@55c46ec1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@380e33c2]
+2021-07-28 15:22:14 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2021-07-28 15:22:14 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8183"]
+2021-07-28 15:22:14 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8183 (http) with context path '/elastic-query-service'
+2021-07-28 15:22:15 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2021-07-28 15:22:15 [main] INFO  c.m.d.e.q.s.ElasticQueryServiceApplication - Started ElasticQueryServiceApplication in 20.709 seconds (JVM running for 23.265)
+2021-07-28 15:24:08 [http-nio-8183-exec-2] INFO  o.a.c.c.C.[.[.[/elastic-query-service] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-28 15:24:08 [http-nio-8183-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-07-28 15:24:08 [http-nio-8183-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-07-28 15:24:09 [http-nio-8183-exec-2] INFO  c.m.d.e.q.s.b.i.TwitterElasticQueryService - Querying elasticsearch by id 7320783971403384454
+2021-07-28 15:24:09 [http-nio-8183-exec-2] INFO  c.m.d.e.q.c.s.i.TwitterElasticRepositoryQueryClient - Document with id 7320783971403384454 retrieved successfully
+2021-07-28 15:27:13 [http-nio-8183-exec-5] INFO  c.m.d.e.q.s.b.i.TwitterElasticQueryService - Querying elasticsearch by id 7320783971403384454
+2021-07-28 15:27:13 [http-nio-8183-exec-5] INFO  c.m.d.e.q.c.s.i.TwitterElasticRepositoryQueryClient - Document with id 7320783971403384454 retrieved successfully
