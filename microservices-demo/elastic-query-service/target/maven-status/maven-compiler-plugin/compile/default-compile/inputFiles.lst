@@ -1,0 +1,11 @@
+/home/onceuponatime/Documents/Java/Microservices/microservices-demo/elastic-query-service/src/main/java/com/microservices/demo/elastic/query/service/config/WebSecurityConfig.java
+/home/onceuponatime/Documents/Java/Microservices/microservices-demo/elastic-query-service/src/main/java/com/microservices/demo/elastic/query/service/business/impl/TwitterElasticQueryService.java
+/home/onceuponatime/Documents/Java/Microservices/microservices-demo/elastic-query-service/src/main/java/com/microservices/demo/elastic/query/service/transformer/ElasticToResponseModelTransformer.java
+/home/onceuponatime/Documents/Java/Microservices/microservices-demo/elastic-query-service/src/main/java/com/microservices/demo/elastic/query/service/api/error/handler/ElasticQueryServiceErrorHandler.java
+/home/onceuponatime/Documents/Java/Microservices/microservices-demo/elastic-query-service/src/main/java/com/microservices/demo/elastic/query/service/model/essembler/ElasticQueryServiceResponseModelAssembler.java
+/home/onceuponatime/Documents/Java/Microservices/microservices-demo/elastic-query-service/src/main/java/com/microservices/demo/elastic/query/service/model/ElasticQueryServiceResponseModelV2.java
+/home/onceuponatime/Documents/Java/Microservices/microservices-demo/elastic-query-service/src/main/java/com/microservices/demo/elastic/query/service/model/ElasticQueryServiceResponseModel.java
+/home/onceuponatime/Documents/Java/Microservices/microservices-demo/elastic-query-service/src/main/java/com/microservices/demo/elastic/query/service/api/ElasticDocumentController.java
+/home/onceuponatime/Documents/Java/Microservices/microservices-demo/elastic-query-service/src/main/java/com/microservices/demo/elastic/query/service/business/ElasticQueryService.java
+/home/onceuponatime/Documents/Java/Microservices/microservices-demo/elastic-query-service/src/main/java/com/microservices/demo/elastic/query/service/model/ElasticQueryServiceRequestModel.java
+/home/onceuponatime/Documents/Java/Microservices/microservices-demo/elastic-query-service/src/main/java/com/microservices/demo/elastic/query/service/ElasticQueryServiceApplication.java
