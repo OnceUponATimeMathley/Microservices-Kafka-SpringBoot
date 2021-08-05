@@ -46,6 +46,7 @@
 		<spring-cloud-starter.version>3.0.3</spring-cloud-starter.version>
 		<elastic.version>7.9.1</elastic.version>
 		<springdoc-openapi-ui.version>1.5.10</springdoc-openapi-ui.version>
+		<spring-cloud-load-balancer.version>3.0.3</spring-cloud-load-balancer.version>
 	</properties>
 
 	<repositories>
@@ -162,6 +163,12 @@
 				<groupId>org.springframework.cloud</groupId>
 				<artifactId>spring-cloud-starter-config</artifactId>
 				<version>${spring-cloud.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-loadbalancer</artifactId>
+				<version>${spring-cloud-load-balancer.version}</version>
 			</dependency>
 
 			<dependency>
