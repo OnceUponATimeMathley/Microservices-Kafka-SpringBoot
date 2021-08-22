@@ -1,0 +1,4 @@
+/home/mathleyneutron/Documents/Java/Microservices/microservices-demo/elastic-query-web-client-common/src/main/java/com/microservices/demo/elastic/query/web/client/common/exception/ElasticQueryWebClientException.java
+/home/mathleyneutron/Documents/Java/Microservices/microservices-demo/elastic-query-web-client-common/src/main/java/com/microservices/demo/elastic/query/web/client/common/model/ElasticQueryWebClientRequestModel.java
+/home/mathleyneutron/Documents/Java/Microservices/microservices-demo/elastic-query-web-client-common/src/main/java/com/microservices/demo/elastic/query/web/client/common/model/ElasticQueryWebClientResponseModel.java
+/home/mathleyneutron/Documents/Java/Microservices/microservices-demo/elastic-query-web-client-common/src/main/java/com/microservices/demo/elastic/query/web/client/common/api/error/handler/ElasticQueryWebClientErrorHandler.java

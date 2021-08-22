@@ -7,8 +7,8 @@ services:
     ports:
       - "8081:8081"
     environment:
-#      - "KEYCLOAK_USER=admin"
-#      - "KEYCLOAK_PASSWORD=admin"
+      - "KEYCLOAK_USER=admin"
+      - "KEYCLOAK_PASSWORD=admin"
       - "JAVA_OPTS=-Djboss.http.port=8081"
       - "DB_VENDOR=POSTGRES"
       - "DB_ADDR=host.docker.internal"
