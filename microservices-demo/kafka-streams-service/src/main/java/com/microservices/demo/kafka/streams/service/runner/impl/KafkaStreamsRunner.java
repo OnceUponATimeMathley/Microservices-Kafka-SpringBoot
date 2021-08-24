@@ -22,7 +22,6 @@ import org.springframework.stereotype.Component;
 import javax.annotation.PreDestroy;
 import java.time.LocalDateTime;
 import java.time.ZoneOffset;
-import java.time.ZonedDateTime;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Map;
@@ -131,7 +130,7 @@ public class KafkaStreamsRunner implements StreamsRunner<String, Long> {
                     .newBuilder()
                     .setWord(word)
                     .setWordCount(count)
-                    .setCreatedAt(ZonedDateTime.now().toEpochSecond())
+                    .setCreatedAt(LocalDateTime.now().toEpochSecond(ZoneOffset.UTC))
                     .build());
         };
     }

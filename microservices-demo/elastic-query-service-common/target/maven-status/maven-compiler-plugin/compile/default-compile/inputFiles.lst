@@ -1,4 +1,5 @@
 /home/mathleyneutron/Documents/Java/Microservices/microservices-demo/elastic-query-service-common/src/main/java/com/microservices/demo/elastic/query/service/common/api/error/handler/ElasticQueryServiceErrorHandler.java
+/home/mathleyneutron/Documents/Java/Microservices/microservices-demo/elastic-query-service-common/src/main/java/com/microservices/demo/elastic/query/service/common/exception/ElasticQueryServiceException.java
 /home/mathleyneutron/Documents/Java/Microservices/microservices-demo/elastic-query-service-common/src/main/java/com/microservices/demo/elastic/query/service/common/model/ElasticQueryServiceResponseModel.java
 /home/mathleyneutron/Documents/Java/Microservices/microservices-demo/elastic-query-service-common/src/main/java/com/microservices/demo/elastic/query/service/common/model/ElasticQueryServiceRequestModel.java
 /home/mathleyneutron/Documents/Java/Microservices/microservices-demo/elastic-query-service-common/src/main/java/com/microservices/demo/elastic/query/service/common/transformer/ElasticToResponseModelTransformer.java

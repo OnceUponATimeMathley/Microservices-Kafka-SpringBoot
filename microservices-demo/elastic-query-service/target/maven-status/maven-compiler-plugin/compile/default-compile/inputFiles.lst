@@ -1,4 +1,5 @@
 /home/mathleyneutron/Documents/Java/Microservices/microservices-demo/elastic-query-service/src/main/java/com/microservices/demo/elastic/query/service/model/essembler/ElasticQueryServiceResponseModelAssembler.java
+/home/mathleyneutron/Documents/Java/Microservices/microservices-demo/elastic-query-service/src/main/java/com/microservices/demo/elastic/query/service/model/ElasticQueryServiceAnalyticsResponseModel.java
 /home/mathleyneutron/Documents/Java/Microservices/microservices-demo/elastic-query-service/src/main/java/com/microservices/demo/elastic/query/service/config/WebSecurityConfig.java
 /home/mathleyneutron/Documents/Java/Microservices/microservices-demo/elastic-query-service/src/main/java/com/microservices/demo/elastic/query/service/model/ElasticQueryServiceResponseModelV2.java
 /home/mathleyneutron/Documents/Java/Microservices/microservices-demo/elastic-query-service/src/main/java/com/microservices/demo/elastic/query/service/Constants.java
@@ -9,6 +10,7 @@
 /home/mathleyneutron/Documents/Java/Microservices/microservices-demo/elastic-query-service/src/main/java/com/microservices/demo/elastic/query/service/dataaccess/entity/UserPermission.java
 /home/mathleyneutron/Documents/Java/Microservices/microservices-demo/elastic-query-service/src/main/java/com/microservices/demo/elastic/query/service/ElasticQueryServiceApplication.java
 /home/mathleyneutron/Documents/Java/Microservices/microservices-demo/elastic-query-service/src/main/java/com/microservices/demo/elastic/query/service/transformer/UserPermissionsToUserDetailTransformer.java
+/home/mathleyneutron/Documents/Java/Microservices/microservices-demo/elastic-query-service/src/main/java/com/microservices/demo/elastic/query/service/model/ElasticQueryServiceWordCountResponseModel.java
 /home/mathleyneutron/Documents/Java/Microservices/microservices-demo/elastic-query-service/src/main/java/com/microservices/demo/elastic/query/service/api/ElasticDocumentController.java
 /home/mathleyneutron/Documents/Java/Microservices/microservices-demo/elastic-query-service/src/main/java/com/microservices/demo/elastic/query/service/security/TwitterQueryUserDetailsService.java
 /home/mathleyneutron/Documents/Java/Microservices/microservices-demo/elastic-query-service/src/main/java/com/microservices/demo/elastic/query/service/security/QueryServicePermissionEvaluator.java

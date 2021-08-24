@@ -1,6 +1,7 @@
+com/microservices/demo/elastic/query/service/common/model/ElasticQueryServiceResponseModel.class
+com/microservices/demo/elastic/query/service/common/exception/ElasticQueryServiceException.class
+com/microservices/demo/elastic/query/service/common/model/ElasticQueryServiceResponseModel$ElasticQueryServiceResponseModelBuilder.class
 com/microservices/demo/elastic/query/service/common/model/ElasticQueryServiceRequestModel$ElasticQueryServiceRequestModelBuilder.class
 com/microservices/demo/elastic/query/service/common/model/ElasticQueryServiceRequestModel.class
 com/microservices/demo/elastic/query/service/common/api/error/handler/ElasticQueryServiceErrorHandler.class
 com/microservices/demo/elastic/query/service/common/transformer/ElasticToResponseModelTransformer.class
-com/microservices/demo/elastic/query/service/common/model/ElasticQueryServiceResponseModel.class
-com/microservices/demo/elastic/query/service/common/model/ElasticQueryServiceResponseModel$ElasticQueryServiceResponseModelBuilder.class
