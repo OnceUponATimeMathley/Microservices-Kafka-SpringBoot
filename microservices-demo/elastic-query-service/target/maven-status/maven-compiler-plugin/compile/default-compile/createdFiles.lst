@@ -3,6 +3,7 @@ com/microservices/demo/elastic/query/service/business/impl/TwitterQueryUserServi
 com/microservices/demo/elastic/query/service/security/TwitterQueryUser$TwitterQueryUserBuilder.class
 com/microservices/demo/elastic/query/service/api/ElasticDocumentController.class
 com/microservices/demo/elastic/query/service/dataaccess/entity/UserPermission.class
+com/microservices/demo/elastic/query/service/QueryType.class
 com/microservices/demo/elastic/query/service/model/ElasticQueryServiceWordCountResponseModel$ElasticQueryServiceWordCountResponseModelBuilder.class
 com/microservices/demo/elastic/query/service/model/ElasticQueryServiceWordCountResponseModel.class
 com/microservices/demo/elastic/query/service/dataaccess/repository/UserPermissionRepository.class
@@ -21,5 +22,6 @@ com/microservices/demo/elastic/query/service/transformer/UserPermissionsToUserDe
 com/microservices/demo/elastic/query/service/security/TwitterQueryUserDetailsService.class
 com/microservices/demo/elastic/query/service/model/ElasticQueryServiceAnalyticsResponseModel.class
 com/microservices/demo/elastic/query/service/security/TwitterQueryUserJwtConverter.class
+com/microservices/demo/elastic/query/service/config/WebClientConfig.class
 com/microservices/demo/elastic/query/service/security/AudienceValidator.class
 com/microservices/demo/elastic/query/service/Constants.class

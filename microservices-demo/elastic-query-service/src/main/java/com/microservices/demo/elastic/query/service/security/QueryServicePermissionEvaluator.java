@@ -2,6 +2,7 @@ package com.microservices.demo.elastic.query.service.security;
 
 import com.microservices.demo.elastic.query.service.common.model.ElasticQueryServiceRequestModel;
 import com.microservices.demo.elastic.query.service.common.model.ElasticQueryServiceResponseModel;
+import com.microservices.demo.elastic.query.service.model.ElasticQueryServiceAnalyticsResponseModel;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.PermissionEvaluator;
 import org.springframework.security.core.Authentication;
@@ -34,13 +35,13 @@ public class QueryServicePermissionEvaluator implements PermissionEvaluator {
         if (targetDomain instanceof ElasticQueryServiceRequestModel) {
             return preAuthorize(authentication, ((ElasticQueryServiceRequestModel) targetDomain).getId(), permission);
         } else if (targetDomain instanceof ResponseEntity || targetDomain == null) {
-            if (targetDomain == null) {  // No documents found
+            if (targetDomain == null) {
                 return true;
             }
-            List<ElasticQueryServiceResponseModel> responseBody =
-                    ((ResponseEntity<List<ElasticQueryServiceResponseModel>>) targetDomain).getBody();
+            ElasticQueryServiceAnalyticsResponseModel responseBody =
+                    ((ResponseEntity<ElasticQueryServiceAnalyticsResponseModel>) targetDomain).getBody();
             Objects.requireNonNull(responseBody);
-            return postAuthorize(authentication, responseBody, permission);
+            return postAuthorize(authentication, responseBody.getQueryResponseModels(), permission);
         }
         return false;
     }

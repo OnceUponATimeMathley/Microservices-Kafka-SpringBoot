@@ -4,6 +4,8 @@
 /home/mathleyneutron/Documents/Java/Microservices/microservices-demo/elastic-query-service/src/main/java/com/microservices/demo/elastic/query/service/model/ElasticQueryServiceResponseModelV2.java
 /home/mathleyneutron/Documents/Java/Microservices/microservices-demo/elastic-query-service/src/main/java/com/microservices/demo/elastic/query/service/Constants.java
 /home/mathleyneutron/Documents/Java/Microservices/microservices-demo/elastic-query-service/src/main/java/com/microservices/demo/elastic/query/service/business/impl/TwitterElasticQueryService.java
+/home/mathleyneutron/Documents/Java/Microservices/microservices-demo/elastic-query-service/src/main/java/com/microservices/demo/elastic/query/service/config/WebClientConfig.java
+/home/mathleyneutron/Documents/Java/Microservices/microservices-demo/elastic-query-service/src/main/java/com/microservices/demo/elastic/query/service/QueryType.java
 /home/mathleyneutron/Documents/Java/Microservices/microservices-demo/elastic-query-service/src/main/java/com/microservices/demo/elastic/query/service/business/QueryUserService.java
 /home/mathleyneutron/Documents/Java/Microservices/microservices-demo/elastic-query-service/src/main/java/com/microservices/demo/elastic/query/service/business/ElasticQueryService.java
 /home/mathleyneutron/Documents/Java/Microservices/microservices-demo/elastic-query-service/src/main/java/com/microservices/demo/elastic/query/service/security/TwitterQueryUserJwtConverter.java
