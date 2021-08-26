@@ -1,7 +1,6 @@
 /home/mathleyneutron/Documents/Java/Microservices/microservices-demo/elastic-query-web-client/src/main/java/com/microservices/demo/elastic/query/web/client/ElasticQueryWebClientApplication.java
 /home/mathleyneutron/Documents/Java/Microservices/microservices-demo/elastic-query-web-client/src/main/java/com/microservices/demo/elastic/query/web/client/api/QueryController.java
 /home/mathleyneutron/Documents/Java/Microservices/microservices-demo/elastic-query-web-client/src/main/java/com/microservices/demo/elastic/query/web/client/service/impl/TwitterElasticQueryWebClient.java
-/home/mathleyneutron/Documents/Java/Microservices/microservices-demo/elastic-query-web-client/src/main/java/com/microservices/demo/elastic/query/web/client/config/ElasticQueryServiceInstanceListSupplierConfig.java
 /home/mathleyneutron/Documents/Java/Microservices/microservices-demo/elastic-query-web-client/src/main/java/com/microservices/demo/elastic/query/web/client/service/ElasticQueryWebClient.java
 /home/mathleyneutron/Documents/Java/Microservices/microservices-demo/elastic-query-web-client/src/main/java/com/microservices/demo/elastic/query/web/client/config/WebSecurityConfig.java
 /home/mathleyneutron/Documents/Java/Microservices/microservices-demo/elastic-query-web-client/src/main/java/com/microservices/demo/elastic/query/web/client/config/WebClientConfig.java

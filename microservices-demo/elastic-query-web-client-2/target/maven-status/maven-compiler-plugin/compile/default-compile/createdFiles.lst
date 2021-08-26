@@ -1,7 +1,6 @@
 com/microservices/demo/elastic/query/web/client/service/ElasticQueryWebClient.class
 com/microservices/demo/elastic/query/web/client/api/QueryController.class
 com/microservices/demo/elastic/query/web/client/config/WebSecurityConfig.class
-com/microservices/demo/elastic/query/web/client/config/ElasticQueryServiceInstanceListSupplierConfig.class
 com/microservices/demo/elastic/query/web/client/ElasticQueryWebClientApplication.class
 com/microservices/demo/elastic/query/web/client/service/impl/TwitterElasticQueryWebClient$1.class
 com/microservices/demo/elastic/query/web/client/service/impl/TwitterElasticQueryWebClient.class

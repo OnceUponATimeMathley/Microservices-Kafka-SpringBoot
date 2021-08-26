@@ -43,3 +43,1740 @@
 2021-08-26 01:33:43 [http-nio-8184-exec-3] INFO  o.a.c.c.C.[.[.[/elastic-query-web-client] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2021-08-26 01:33:43 [http-nio-8184-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2021-08-26 01:33:43 [http-nio-8184-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2021-08-26 04:28:54 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-08-26 04:28:55 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://config-server:8888
+2021-08-26 04:29:01 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=elastic-query-web-client,config-client, profiles=[elastic_query_web], label=null, version=5c4d574f604df98d55831449b32107ccd0dcbf97, state=null
+2021-08-26 04:29:01 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/OnceUponATimeMathley/spring-cloud-config-server-repository-3/config-client-elastic_query_web.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/OnceUponATimeMathley/spring-cloud-config-server-repository-3/config-client.yml'}]
+2021-08-26 04:29:01 [main] INFO  c.m.d.e.q.w.c.ElasticQueryWebClientApplication - The following profiles are active: elastic_query_web
+2021-08-26 04:29:01 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=79151a70-e9e1-3cd0-b422-8c954a2d68f5
+2021-08-26 04:29:02 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-26 04:29:02 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-26 04:29:02 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-26 04:29:02 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8184 (http)
+2021-08-26 04:29:02 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8184"]
+2021-08-26 04:29:02 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-26 04:29:02 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-08-26 04:29:02 [main] INFO  o.a.c.c.C.[.[.[/elastic-query-web-client] - Initializing Spring embedded WebApplicationContext
+2021-08-26 04:29:02 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1366 ms
+2021-08-26 04:29:03 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-08-26 04:29:03 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@54234569, org.springframework.security.web.context.SecurityContextPersistenceFilter@7c31e410, org.springframework.security.web.header.HeaderWriterFilter@62b786dc, org.springframework.security.web.csrf.CsrfFilter@11c3ce6a, org.springframework.security.web.authentication.logout.LogoutFilter@35b3c1f6, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@7827d7b, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@216328b2, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@5b0e9e0c, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2493eec6, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@21ea1d9d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6febec41, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2c1ea7be, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@19f497aa, org.springframework.security.oauth2.client.web.OAuth2AuthorizationCodeGrantFilter@11cc9e1e, org.springframework.security.web.session.SessionManagementFilter@48d5ca17, org.springframework.security.web.access.ExceptionTranslationFilter@6dbbdf92, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@288409f0]
+2021-08-26 04:29:03 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-08-26 04:29:03 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8184"]
+2021-08-26 04:29:03 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8184 (http) with context path '/elastic-query-web-client'
+2021-08-26 04:29:03 [main] INFO  c.m.d.e.q.w.c.ElasticQueryWebClientApplication - Started ElasticQueryWebClientApplication in 9.876 seconds (JVM running for 10.83)
+2021-08-26 04:33:52 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-08-26 04:33:57 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://config-server:8888
+2021-08-26 04:34:07 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=elastic-query-web-client,config-client, profiles=[elastic_query_web], label=null, version=5c4d574f604df98d55831449b32107ccd0dcbf97, state=null
+2021-08-26 04:34:08 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/OnceUponATimeMathley/spring-cloud-config-server-repository-3/config-client-elastic_query_web.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/OnceUponATimeMathley/spring-cloud-config-server-repository-3/config-client.yml'}]
+2021-08-26 04:34:08 [main] INFO  c.m.d.e.q.w.c.ElasticQueryWebClientApplication - The following profiles are active: elastic_query_web
+2021-08-26 04:34:15 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=79151a70-e9e1-3cd0-b422-8c954a2d68f5
+2021-08-26 04:34:15 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-26 04:34:15 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-26 04:34:15 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-26 04:34:16 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8184 (http)
+2021-08-26 04:34:16 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8184"]
+2021-08-26 04:34:16 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-26 04:34:16 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-08-26 04:34:17 [main] INFO  o.a.c.c.C.[.[.[/elastic-query-web-client] - Initializing Spring embedded WebApplicationContext
+2021-08-26 04:34:17 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 8958 ms
+2021-08-26 04:34:21 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-08-26 04:34:22 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@11cc9e1e, org.springframework.security.web.context.SecurityContextPersistenceFilter@7ba1cdbe, org.springframework.security.web.header.HeaderWriterFilter@7c4ca87c, org.springframework.security.web.csrf.CsrfFilter@11f3400c, org.springframework.security.web.authentication.logout.LogoutFilter@4db6348b, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@5b5b53c6, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@2e7a9db7, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@5315266, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@57b63253, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@216328b2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@226e07e7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4ec8d9b2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5b0e9e0c, org.springframework.security.oauth2.client.web.OAuth2AuthorizationCodeGrantFilter@646cb2e, org.springframework.security.web.session.SessionManagementFilter@1dbeedff, org.springframework.security.web.access.ExceptionTranslationFilter@7aa15a80, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2f6f4ac4]
+2021-08-26 04:34:23 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-08-26 04:34:23 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8184"]
+2021-08-26 04:34:23 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8184 (http) with context path '/elastic-query-web-client'
+2021-08-26 04:34:23 [main] INFO  c.m.d.e.q.w.c.ElasticQueryWebClientApplication - Started ElasticQueryWebClientApplication in 34.042 seconds (JVM running for 36.89)
+2021-08-26 04:40:59 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-08-26 04:41:02 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://config-server:8888
+2021-08-26 04:41:11 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=elastic-query-web-client,config-client, profiles=[elastic_query_web], label=null, version=5c4d574f604df98d55831449b32107ccd0dcbf97, state=null
+2021-08-26 04:41:11 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/OnceUponATimeMathley/spring-cloud-config-server-repository-3/config-client-elastic_query_web.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/OnceUponATimeMathley/spring-cloud-config-server-repository-3/config-client.yml'}]
+2021-08-26 04:41:12 [main] INFO  c.m.d.e.q.w.c.ElasticQueryWebClientApplication - The following profiles are active: elastic_query_web
+2021-08-26 04:41:16 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=79151a70-e9e1-3cd0-b422-8c954a2d68f5
+2021-08-26 04:41:17 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-26 04:41:17 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-26 04:41:17 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-26 04:41:18 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8184 (http)
+2021-08-26 04:41:18 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8184"]
+2021-08-26 04:41:18 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-26 04:41:18 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-08-26 04:41:19 [main] INFO  o.a.c.c.C.[.[.[/elastic-query-web-client] - Initializing Spring embedded WebApplicationContext
+2021-08-26 04:41:19 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7112 ms
+2021-08-26 04:41:22 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-08-26 04:41:23 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3460e4ed, org.springframework.security.web.context.SecurityContextPersistenceFilter@3722f39d, org.springframework.security.web.header.HeaderWriterFilter@6febec41, org.springframework.security.web.csrf.CsrfFilter@636fccb0, org.springframework.security.web.authentication.logout.LogoutFilter@20231384, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@5b0e9e0c, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@78e387d6, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@9147ba2, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2a42019a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2efcc0b3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@57b63253, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@65d90b7f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4a453f8d, org.springframework.security.oauth2.client.web.OAuth2AuthorizationCodeGrantFilter@36a58466, org.springframework.security.web.session.SessionManagementFilter@4e8afdad, org.springframework.security.web.access.ExceptionTranslationFilter@7c31e410, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1a0ffb9b]
+2021-08-26 04:41:23 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-08-26 04:41:23 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8184"]
+2021-08-26 04:41:23 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8184 (http) with context path '/elastic-query-web-client'
+2021-08-26 04:41:23 [main] INFO  c.m.d.e.q.w.c.ElasticQueryWebClientApplication - Started ElasticQueryWebClientApplication in 26.654 seconds (JVM running for 28.601)
+2021-08-26 04:41:24 [http-nio-8184-exec-1] INFO  o.a.c.c.C.[.[.[/elastic-query-web-client] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-26 04:41:24 [http-nio-8184-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-08-26 04:41:24 [http-nio-8184-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-08-26 04:41:33 [http-nio-8184-exec-5] INFO  c.m.d.e.q.w.c.c.WebSecurityConfig - Username from id token: app_super_user
+2021-08-26 04:41:36 [http-nio-8184-exec-8] INFO  c.m.d.e.q.w.c.api.QueryController - Querying with text java
+2021-08-26 04:41:36 [http-nio-8184-exec-8] INFO  c.m.d.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text java
+2021-08-26 04:41:36 [http-nio-8184-exec-8] INFO  reactor.Mono.FlatMap.1 - | onSubscribe([Fuseable] MonoFlatMap.FlatMapMain)
+2021-08-26 04:41:36 [http-nio-8184-exec-8] INFO  reactor.Mono.FlatMap.1 - | request(unbounded)
+2021-08-26 04:41:38 [reactor-tcp-epoll-2] INFO  reactor.Mono.FlatMap.1 - | onNext(ElasticQueryWebClientAnalyticsResponseModel(queryResponseModels=[ElasticQueryWebClientResponseModel(id=1430226387110088719, userId=1293562790813335554, text=RT @SumitM14455640: #React #Java #javascript  Devs only.
+
+Let's grow together  #follo4folloback #folloback #follobackforfolloback #folllow?, createdAt=2021-08-24T17:51:57Z[UTC]), ElasticQueryWebClientResponseModel(id=1430450135025307648, userId=955289710020124672, text=RT @Doxyaxone: Modern Masochism. #Python #BigData #Analytics #AI #DataScience #IoT #IIoT #Azure #PyTorch #RStats #DotNet #C #CPP #Java #CSh?, createdAt=2021-08-25T08:41:03Z[UTC]), ElasticQueryWebClientResponseModel(id=1430558697571356677, userId=412133001, text=@BrianVerm @DevoxxPL Ok ok the real thing I do is that I imagine them all to be Java devs, createdAt=2021-08-25T15:52:26Z[UTC]), ElasticQueryWebClientResponseModel(id=1429356827939115010, userId=1285154821419544576, text=? Released #archimedes_maven_micronaut 3.0.0 !
+
+Simple pom parent to easily use @micronautfw with #Maven in @java or @kotlin projects.
+
+? https://t.co/6ZQyHXX5FY
+? https://t.co/EJwOKpN2EU, createdAt=2021-08-22T08:16:38Z[UTC])], wordCount=8))
+2021-08-26 04:41:38 [reactor-tcp-epoll-2] INFO  reactor.Mono.FlatMap.1 - | onComplete()
+2021-08-26 04:41:41 [http-nio-8184-exec-7] INFO  c.m.d.e.q.w.c.api.QueryController - Querying with text kafka
+2021-08-26 04:41:41 [http-nio-8184-exec-7] INFO  c.m.d.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text kafka
+2021-08-26 04:41:41 [http-nio-8184-exec-7] INFO  reactor.Mono.FlatMap.2 - | onSubscribe([Fuseable] MonoFlatMap.FlatMapMain)
+2021-08-26 04:41:41 [http-nio-8184-exec-7] INFO  reactor.Mono.FlatMap.2 - | request(unbounded)
+2021-08-26 04:41:42 [reactor-tcp-epoll-3] INFO  reactor.Mono.FlatMap.2 - | onNext(ElasticQueryWebClientAnalyticsResponseModel(queryResponseModels=[], wordCount=4))
+2021-08-26 04:41:42 [reactor-tcp-epoll-3] INFO  reactor.Mono.FlatMap.2 - | onComplete()
+2021-08-26 04:41:50 [http-nio-8184-exec-9] INFO  c.m.d.e.q.w.c.api.QueryController - Querying with text test
+2021-08-26 04:41:50 [http-nio-8184-exec-9] INFO  c.m.d.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text test
+2021-08-26 04:41:50 [http-nio-8184-exec-9] INFO  reactor.Mono.FlatMap.3 - | onSubscribe([Fuseable] MonoFlatMap.FlatMapMain)
+2021-08-26 04:41:50 [http-nio-8184-exec-9] INFO  reactor.Mono.FlatMap.3 - | request(unbounded)
+2021-08-26 04:41:50 [reactor-tcp-epoll-2] INFO  reactor.Mono.FlatMap.3 - | onNext(ElasticQueryWebClientAnalyticsResponseModel(queryResponseModels=[ElasticQueryWebClientResponseModel(id=1430450337769394188, userId=1309167320296808451, text=RT @parimal2016: Test dene se baat banegi https://t.co/vvYvp0CpZw, createdAt=2021-08-25T08:41:51Z[UTC]), ElasticQueryWebClientResponseModel(id=1430226529192226816, userId=95554946, text=RT @Quotedtwits: *taking a test*
+
+Me: "shi, it's close enough" https://t.co/mFnT4Flc8B, createdAt=2021-08-24T17:52:31Z[UTC]), ElasticQueryWebClientResponseModel(id=1430450291606913025, userId=1372477557300338689, text=RT @Quotedtwits: *taking a test*
+
+Me: "shi, it's close enough" https://t.co/mFnT4Flc8B, createdAt=2021-08-25T08:41:40Z[UTC]), ElasticQueryWebClientResponseModel(id=1430460886439825408, userId=264084182, text=RT @Quotedtwits: *taking a test*
+
+Me: "shi, it's close enough" https://t.co/mFnT4Flc8B, createdAt=2021-08-25T09:23:46Z[UTC]), ElasticQueryWebClientResponseModel(id=1430460940944740354, userId=1089118387723063296, text=RT @Quotedtwits: *taking a test*
+
+Me: "shi, it's close enough" https://t.co/mFnT4Flc8B, createdAt=2021-08-25T09:23:59Z[UTC]), ElasticQueryWebClientResponseModel(id=1430470160062816258, userId=744609903902330884, text=RT @Quotedtwits: *taking a test*
+
+Me: "shi, it's close enough" https://t.co/mFnT4Flc8B, createdAt=2021-08-25T10:00:37Z[UTC]), ElasticQueryWebClientResponseModel(id=1430475344121765888, userId=1272734019495424000, text=RT @Quotedtwits: *taking a test*
+
+Me: "shi, it's close enough" https://t.co/mFnT4Flc8B, createdAt=2021-08-25T10:21:13Z[UTC]), ElasticQueryWebClientResponseModel(id=1430572055926169601, userId=1201448202169241604, text=RT @Quotedtwits: *taking a test*
+
+Me: "shi, it's close enough" https://t.co/mFnT4Flc8B, createdAt=2021-08-25T16:45:31Z[UTC]), ElasticQueryWebClientResponseModel(id=1430431887126843394, userId=21599160, text=RT @TheFigen: My friends, test your lungs! 
+( Me 5 )
+RT @0xRadar 
+
+https://t.co/iFKMsqKy1P, createdAt=2021-08-25T07:28:32Z[UTC]), ElasticQueryWebClientResponseModel(id=1429356672128995331, userId=1122006753124601856, text=RT @simbakarkai: Antigen test kit ???????????
+??????????????????????????????
+
+?????????????????????? ????????
+?? ????? 240 ???
+3???????????, createdAt=2021-08-22T08:16:01Z[UTC]), ElasticQueryWebClientResponseModel(id=1429356320679895040, userId=1244405992202178561, text=RT @zacknchz: @hypland, does this pass the vibe test? ????? ? https://t.co/JIfQMIWiUQ, createdAt=2021-08-22T08:14:37Z[UTC]), ElasticQueryWebClientResponseModel(id=1430477919416057861, userId=901519155999932417, text=RT @AnuSatheesh5: He never gives a test which we cannot pass 
+
+Good Evening https://t.co/qLEcjhoTgL, createdAt=2021-08-25T10:31:27Z[UTC]), ElasticQueryWebClientResponseModel(id=1430450367075164167, userId=873589798451204097, text=RT @REALsaeedajmal: Congratulations team Pakistan winning the test match congrats to @iamfawadalam25 and @iShaheenAfridi  @babarazam25@?????, createdAt=2021-08-25T08:41:58Z[UTC]), ElasticQueryWebClientResponseModel(id=1430572148704256002, userId=1401690483252862976, text=RT @AircraftBy: Virgin Orbit's Boeing 747 completes test flight carrying space rocket ?
+@VirginAtlantic @Virgin @VirginOrbit
+#BOEING #Boein?, createdAt=2021-08-25T16:45:53Z[UTC]), ElasticQueryWebClientResponseModel(id=1430226437496311812, userId=739399418428948481, text=RT @OfficialDGISPR: #Pakistan today conducted a successful test flight of indigenously developed #Fatah-1 (Guided Multi Launch Rocket Syste?, createdAt=2021-08-24T17:52:09Z[UTC]), ElasticQueryWebClientResponseModel(id=1430226450033037314, userId=1115971054005096453, text=RT @OfficialDGISPR: #Pakistan today conducted a successful test flight of indigenously developed #Fatah-1 (Guided Multi Launch Rocket Syste?, createdAt=2021-08-24T17:52:12Z[UTC]), ElasticQueryWebClientResponseModel(id=1430475327512317957, userId=286551068, text=RT @pawinpawin: Study ??????????????? ????? Sensitivity ??? Antigen test kit ?????? Standard F Covid19 Ag FIA / SD (Biosensor) ????????????, createdAt=2021-08-25T10:21:09Z[UTC]), ElasticQueryWebClientResponseModel(id=1430558856858374148, userId=1266865543157612550, text=RT @BCCI: Hello and welcome to the Headingley Stadium for our 3rd Test against England.
+
+#ENGvIND https://t.co/8tDVW8Jxyk, createdAt=2021-08-25T15:53:04Z[UTC]), ElasticQueryWebClientResponseModel(id=1430431958362898432, userId=2704817130, text=RT @OriginalBlair0: The mini audiology booth allows for safe, accurate and reliable hearing test assessment through the attenuation of back?, createdAt=2021-08-25T07:28:49Z[UTC]), ElasticQueryWebClientResponseModel(id=1430432033478635520, userId=1277187398149894144, text=@HawaiiNewsNow Ask the inventor of the test they are using to diagnose covid for the last 20 months. https://t.co/R0JpCZjwaW, createdAt=2021-08-25T07:29:07Z[UTC]), ElasticQueryWebClientResponseModel(id=1430460768965709824, userId=1413526802320871424, text=RT @mipaltan: Preview Time ?? LEEDS TEST ??
+
+? @thebharatarmy talk about Rohit's measured approach and Bumrah's match-winning abilities ahe?, createdAt=2021-08-25T09:23:18Z[UTC]), ElasticQueryWebClientResponseModel(id=1430460701806530566, userId=1176483944373469185, text=RT @HakkenRyou: Yoon SeungHo 
+Painter of The Night by Byeonduck 
+________
+A quick test, I tried my best? https://t.co/5YolV2S4Uy, createdAt=2021-08-25T09:23:02Z[UTC]), ElasticQueryWebClientResponseModel(id=1430226605205450752, userId=1421132353447993356, text=RT @ANI: COVID19 | Kerala reports 24,296 new cases, 173 deaths and 19,349 recoveries today; Test positivity rate at 18.04% https://t.co/Lbu?, createdAt=2021-08-24T17:52:49Z[UTC]), ElasticQueryWebClientResponseModel(id=1429356802773299205, userId=1356865234716164097, text=Forced use of people as test subject is a blatant violation against human rights.
+
+NUG FOR DEMOCRACY
+
+#Aug22Coup 
+#CrimesAgainstHumanity
+#WhatsHappeningInMyanmar https://t.co/zEZzQ2gzgg, createdAt=2021-08-22T08:16:32Z[UTC]), ElasticQueryWebClientResponseModel(id=1430470126470529031, userId=1328917506686259201, text=RT @UENCCLUB: #UENC will update the functions of v1.6.2 on Aug 26
+
+1??Fix the problem of unstable node selection
+2??Increase the test netwo?, createdAt=2021-08-25T10:00:29Z[UTC]), ElasticQueryWebClientResponseModel(id=1430576804432162826, userId=22501382, text=RT @briansetzer59: ONE WEEK AWAY... 
+
+Enter to win a signed vinyl test pressing of Brian's new album, Gotta Have The Rumble! https://t.co/N?, createdAt=2021-08-25T17:04:23Z[UTC]), ElasticQueryWebClientResponseModel(id=1430226475211395078, userId=2474037773, text=RT @RCBTweets: #OnThisDay in 1??9??7??1??, ?? beat ??????? by 4?? wickets to clinch their first-ever Test series in England. ??
+
+Drop a ? i?, createdAt=2021-08-24T17:52:18Z[UTC]), ElasticQueryWebClientResponseModel(id=1430431899512721411, userId=1403447873279307777, text=RT @Team_BabarAzam: Babar Azam as Test Captain:
+
+WON - WON - WON - WON - LOST - WON ??
+
+A new era has begin with Mission WTC 2023 the desti?, createdAt=2021-08-25T07:28:35Z[UTC]), ElasticQueryWebClientResponseModel(id=1430432054890618884, userId=1206774247030509569, text=RT @ICC: Pakistan win by 109 runs and level the series ? 
+
+Shaheen Afridi finishes the match with career-best Test figures of 10/94. 
+
+#WTC?, createdAt=2021-08-25T07:29:12Z[UTC]), ElasticQueryWebClientResponseModel(id=1430576737310679045, userId=1167097446226440192, text=RT @ezeugo_i: CLASSWORK : 2 X 1
+
+TEST: Find the perimeter of a square if it's length is 2cm
+
+EXAM: if the circumference of the sun is half?, createdAt=2021-08-25T17:04:07Z[UTC]), ElasticQueryWebClientResponseModel(id=1429356375180681222, userId=453811004, text=RT @wybsg: Damn! Yibo?s first test shot is 9.4 
+other than cooking what else does my baby not know ?
+
+#WangYibo #??? #??? https://t.co/Fc0M?, createdAt=2021-08-22T08:14:50Z[UTC])], wordCount=26))
+2021-08-26 04:41:50 [reactor-tcp-epoll-2] INFO  reactor.Mono.FlatMap.3 - | onComplete()
+2021-08-26 04:41:56 [http-nio-8184-exec-10] INFO  c.m.d.e.q.w.c.api.QueryController - Querying with text test
+2021-08-26 04:41:56 [http-nio-8184-exec-10] INFO  c.m.d.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text test
+2021-08-26 04:41:56 [http-nio-8184-exec-10] INFO  reactor.Mono.FlatMap.4 - | onSubscribe([Fuseable] MonoFlatMap.FlatMapMain)
+2021-08-26 04:41:56 [http-nio-8184-exec-10] INFO  reactor.Mono.FlatMap.4 - | request(unbounded)
+2021-08-26 04:41:56 [reactor-tcp-epoll-3] INFO  reactor.Mono.FlatMap.4 - | onNext(ElasticQueryWebClientAnalyticsResponseModel(queryResponseModels=[ElasticQueryWebClientResponseModel(id=1430450337769394188, userId=1309167320296808451, text=RT @parimal2016: Test dene se baat banegi https://t.co/vvYvp0CpZw, createdAt=2021-08-25T08:41:51Z[UTC]), ElasticQueryWebClientResponseModel(id=1430226529192226816, userId=95554946, text=RT @Quotedtwits: *taking a test*
+
+Me: "shi, it's close enough" https://t.co/mFnT4Flc8B, createdAt=2021-08-24T17:52:31Z[UTC]), ElasticQueryWebClientResponseModel(id=1430450291606913025, userId=1372477557300338689, text=RT @Quotedtwits: *taking a test*
+
+Me: "shi, it's close enough" https://t.co/mFnT4Flc8B, createdAt=2021-08-25T08:41:40Z[UTC]), ElasticQueryWebClientResponseModel(id=1430460886439825408, userId=264084182, text=RT @Quotedtwits: *taking a test*
+
+Me: "shi, it's close enough" https://t.co/mFnT4Flc8B, createdAt=2021-08-25T09:23:46Z[UTC]), ElasticQueryWebClientResponseModel(id=1430460940944740354, userId=1089118387723063296, text=RT @Quotedtwits: *taking a test*
+
+Me: "shi, it's close enough" https://t.co/mFnT4Flc8B, createdAt=2021-08-25T09:23:59Z[UTC]), ElasticQueryWebClientResponseModel(id=1430470160062816258, userId=744609903902330884, text=RT @Quotedtwits: *taking a test*
+
+Me: "shi, it's close enough" https://t.co/mFnT4Flc8B, createdAt=2021-08-25T10:00:37Z[UTC]), ElasticQueryWebClientResponseModel(id=1430475344121765888, userId=1272734019495424000, text=RT @Quotedtwits: *taking a test*
+
+Me: "shi, it's close enough" https://t.co/mFnT4Flc8B, createdAt=2021-08-25T10:21:13Z[UTC]), ElasticQueryWebClientResponseModel(id=1430572055926169601, userId=1201448202169241604, text=RT @Quotedtwits: *taking a test*
+
+Me: "shi, it's close enough" https://t.co/mFnT4Flc8B, createdAt=2021-08-25T16:45:31Z[UTC]), ElasticQueryWebClientResponseModel(id=1430431887126843394, userId=21599160, text=RT @TheFigen: My friends, test your lungs! 
+( Me 5 )
+RT @0xRadar 
+
+https://t.co/iFKMsqKy1P, createdAt=2021-08-25T07:28:32Z[UTC]), ElasticQueryWebClientResponseModel(id=1429356672128995331, userId=1122006753124601856, text=RT @simbakarkai: Antigen test kit ???????????
+??????????????????????????????
+
+?????????????????????? ????????
+?? ????? 240 ???
+3???????????, createdAt=2021-08-22T08:16:01Z[UTC]), ElasticQueryWebClientResponseModel(id=1429356320679895040, userId=1244405992202178561, text=RT @zacknchz: @hypland, does this pass the vibe test? ????? ? https://t.co/JIfQMIWiUQ, createdAt=2021-08-22T08:14:37Z[UTC]), ElasticQueryWebClientResponseModel(id=1430477919416057861, userId=901519155999932417, text=RT @AnuSatheesh5: He never gives a test which we cannot pass 
+
+Good Evening https://t.co/qLEcjhoTgL, createdAt=2021-08-25T10:31:27Z[UTC]), ElasticQueryWebClientResponseModel(id=1430450367075164167, userId=873589798451204097, text=RT @REALsaeedajmal: Congratulations team Pakistan winning the test match congrats to @iamfawadalam25 and @iShaheenAfridi  @babarazam25@?????, createdAt=2021-08-25T08:41:58Z[UTC]), ElasticQueryWebClientResponseModel(id=1430572148704256002, userId=1401690483252862976, text=RT @AircraftBy: Virgin Orbit's Boeing 747 completes test flight carrying space rocket ?
+@VirginAtlantic @Virgin @VirginOrbit
+#BOEING #Boein?, createdAt=2021-08-25T16:45:53Z[UTC]), ElasticQueryWebClientResponseModel(id=1430226437496311812, userId=739399418428948481, text=RT @OfficialDGISPR: #Pakistan today conducted a successful test flight of indigenously developed #Fatah-1 (Guided Multi Launch Rocket Syste?, createdAt=2021-08-24T17:52:09Z[UTC]), ElasticQueryWebClientResponseModel(id=1430226450033037314, userId=1115971054005096453, text=RT @OfficialDGISPR: #Pakistan today conducted a successful test flight of indigenously developed #Fatah-1 (Guided Multi Launch Rocket Syste?, createdAt=2021-08-24T17:52:12Z[UTC]), ElasticQueryWebClientResponseModel(id=1430475327512317957, userId=286551068, text=RT @pawinpawin: Study ??????????????? ????? Sensitivity ??? Antigen test kit ?????? Standard F Covid19 Ag FIA / SD (Biosensor) ????????????, createdAt=2021-08-25T10:21:09Z[UTC]), ElasticQueryWebClientResponseModel(id=1430558856858374148, userId=1266865543157612550, text=RT @BCCI: Hello and welcome to the Headingley Stadium for our 3rd Test against England.
+
+#ENGvIND https://t.co/8tDVW8Jxyk, createdAt=2021-08-25T15:53:04Z[UTC]), ElasticQueryWebClientResponseModel(id=1430431958362898432, userId=2704817130, text=RT @OriginalBlair0: The mini audiology booth allows for safe, accurate and reliable hearing test assessment through the attenuation of back?, createdAt=2021-08-25T07:28:49Z[UTC]), ElasticQueryWebClientResponseModel(id=1430432033478635520, userId=1277187398149894144, text=@HawaiiNewsNow Ask the inventor of the test they are using to diagnose covid for the last 20 months. https://t.co/R0JpCZjwaW, createdAt=2021-08-25T07:29:07Z[UTC]), ElasticQueryWebClientResponseModel(id=1430460768965709824, userId=1413526802320871424, text=RT @mipaltan: Preview Time ?? LEEDS TEST ??
+
+? @thebharatarmy talk about Rohit's measured approach and Bumrah's match-winning abilities ahe?, createdAt=2021-08-25T09:23:18Z[UTC]), ElasticQueryWebClientResponseModel(id=1430460701806530566, userId=1176483944373469185, text=RT @HakkenRyou: Yoon SeungHo 
+Painter of The Night by Byeonduck 
+________
+A quick test, I tried my best? https://t.co/5YolV2S4Uy, createdAt=2021-08-25T09:23:02Z[UTC]), ElasticQueryWebClientResponseModel(id=1430226605205450752, userId=1421132353447993356, text=RT @ANI: COVID19 | Kerala reports 24,296 new cases, 173 deaths and 19,349 recoveries today; Test positivity rate at 18.04% https://t.co/Lbu?, createdAt=2021-08-24T17:52:49Z[UTC]), ElasticQueryWebClientResponseModel(id=1429356802773299205, userId=1356865234716164097, text=Forced use of people as test subject is a blatant violation against human rights.
+
+NUG FOR DEMOCRACY
+
+#Aug22Coup 
+#CrimesAgainstHumanity
+#WhatsHappeningInMyanmar https://t.co/zEZzQ2gzgg, createdAt=2021-08-22T08:16:32Z[UTC]), ElasticQueryWebClientResponseModel(id=1430470126470529031, userId=1328917506686259201, text=RT @UENCCLUB: #UENC will update the functions of v1.6.2 on Aug 26
+
+1??Fix the problem of unstable node selection
+2??Increase the test netwo?, createdAt=2021-08-25T10:00:29Z[UTC]), ElasticQueryWebClientResponseModel(id=1430576804432162826, userId=22501382, text=RT @briansetzer59: ONE WEEK AWAY... 
+
+Enter to win a signed vinyl test pressing of Brian's new album, Gotta Have The Rumble! https://t.co/N?, createdAt=2021-08-25T17:04:23Z[UTC]), ElasticQueryWebClientResponseModel(id=1430226475211395078, userId=2474037773, text=RT @RCBTweets: #OnThisDay in 1??9??7??1??, ?? beat ??????? by 4?? wickets to clinch their first-ever Test series in England. ??
+
+Drop a ? i?, createdAt=2021-08-24T17:52:18Z[UTC]), ElasticQueryWebClientResponseModel(id=1430431899512721411, userId=1403447873279307777, text=RT @Team_BabarAzam: Babar Azam as Test Captain:
+
+WON - WON - WON - WON - LOST - WON ??
+
+A new era has begin with Mission WTC 2023 the desti?, createdAt=2021-08-25T07:28:35Z[UTC]), ElasticQueryWebClientResponseModel(id=1430432054890618884, userId=1206774247030509569, text=RT @ICC: Pakistan win by 109 runs and level the series ? 
+
+Shaheen Afridi finishes the match with career-best Test figures of 10/94. 
+
+#WTC?, createdAt=2021-08-25T07:29:12Z[UTC]), ElasticQueryWebClientResponseModel(id=1430576737310679045, userId=1167097446226440192, text=RT @ezeugo_i: CLASSWORK : 2 X 1
+
+TEST: Find the perimeter of a square if it's length is 2cm
+
+EXAM: if the circumference of the sun is half?, createdAt=2021-08-25T17:04:07Z[UTC]), ElasticQueryWebClientResponseModel(id=1429356375180681222, userId=453811004, text=RT @wybsg: Damn! Yibo?s first test shot is 9.4 
+other than cooking what else does my baby not know ?
+
+#WangYibo #??? #??? https://t.co/Fc0M?, createdAt=2021-08-22T08:14:50Z[UTC])], wordCount=26))
+2021-08-26 04:41:56 [reactor-tcp-epoll-3] INFO  reactor.Mono.FlatMap.4 - | onComplete()
+2021-08-26 15:34:41 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-08-26 15:34:45 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://config-server:8888
+2021-08-26 15:34:48 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=elastic-query-web-client,config-client, profiles=[elastic_query_web], label=null, version=8601064c74d939d72ad3d48d7ff53bec96fba6c0, state=null
+2021-08-26 15:34:48 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/OnceUponATimeMathley/spring-cloud-config-server-repository-3/config-client-elastic_query_web.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/OnceUponATimeMathley/spring-cloud-config-server-repository-3/config-client.yml'}]
+2021-08-26 15:34:48 [main] INFO  c.m.d.e.q.w.c.ElasticQueryWebClientApplication - The following profiles are active: elastic_query_web
+2021-08-26 15:34:50 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=05ca80d5-0b25-32d5-910a-9cf58d01e698
+2021-08-26 15:34:50 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-26 15:34:50 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-26 15:34:50 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-26 15:34:50 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8184 (http)
+2021-08-26 15:34:50 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8184"]
+2021-08-26 15:34:50 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-26 15:34:50 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-08-26 15:34:50 [main] INFO  o.a.c.c.C.[.[.[/elastic-query-web-client] - Initializing Spring embedded WebApplicationContext
+2021-08-26 15:34:50 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2022 ms
+2021-08-26 15:34:52 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-08-26 15:34:53 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@413eaf5d, org.springframework.security.web.context.SecurityContextPersistenceFilter@280d6a20, org.springframework.security.web.header.HeaderWriterFilter@19924f15, org.springframework.security.web.csrf.CsrfFilter@299cab08, org.springframework.security.web.authentication.logout.LogoutFilter@5d0e703a, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@e993715, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@5cfa2ac5, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@4cc89246, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6e67a8c0, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3e28af44, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@71285693, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5d3634c8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@33891646, org.springframework.security.oauth2.client.web.OAuth2AuthorizationCodeGrantFilter@472719df, org.springframework.security.web.session.SessionManagementFilter@35524549, org.springframework.security.web.access.ExceptionTranslationFilter@a7bbdbc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5c3710b3]
+2021-08-26 15:34:54 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2021-08-26 15:34:54 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-08-26 15:34:54 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2021-08-26 15:34:55 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2021-08-26 15:34:55 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2021-08-26 15:34:55 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2021-08-26 15:34:55 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2021-08-26 15:34:55 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2021-08-26 15:34:55 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2021-08-26 15:34:55 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2021-08-26 15:34:55 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2021-08-26 15:34:55 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2021-08-26 15:34:57 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2021-08-26 15:34:57 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2021-08-26 15:34:57 [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-08-26 15:34:57 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1629992097453 with initial instances count: 2
+2021-08-26 15:34:57 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application ELASTIC-QUERY-WEB-CLIENT with eureka with status UP
+2021-08-26 15:34:57 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1629992097491, current=UP, previous=STARTING]
+2021-08-26 15:34:57 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8184"]
+2021-08-26 15:34:57 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ELASTIC-QUERY-WEB-CLIENT/0f77a6e43005:elastic-query-web-client:8184: registering service...
+2021-08-26 15:34:57 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8184 (http) with context path '/elastic-query-web-client'
+2021-08-26 15:34:57 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8184
+2021-08-26 15:34:57 [main] INFO  c.m.d.e.q.w.c.ElasticQueryWebClientApplication - Started ElasticQueryWebClientApplication in 18.376 seconds (JVM running for 20.415)
+2021-08-26 15:34:57 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ELASTIC-QUERY-WEB-CLIENT/0f77a6e43005:elastic-query-web-client:8184 - registration status: 204
+2021-08-26 15:34:58 [http-nio-8184-exec-3] INFO  o.a.c.c.C.[.[.[/elastic-query-web-client] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-26 15:34:58 [http-nio-8184-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-08-26 15:34:58 [http-nio-8184-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2021-08-26 15:35:08 [http-nio-8184-exec-6] INFO  c.m.d.e.q.w.c.c.WebSecurityConfig - Username from id token: app_super_user
+2021-08-26 15:35:11 [http-nio-8184-exec-8] INFO  c.m.d.e.q.w.c.api.QueryController - Querying with text test
+2021-08-26 15:35:11 [http-nio-8184-exec-8] INFO  c.m.d.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text test
+2021-08-26 15:35:11 [http-nio-8184-exec-8] INFO  reactor.Mono.FlatMap.1 - | onSubscribe([Fuseable] MonoFlatMap.FlatMapMain)
+2021-08-26 15:35:11 [http-nio-8184-exec-8] INFO  reactor.Mono.FlatMap.1 - | request(unbounded)
+2021-08-26 15:35:12 [boundedElastic-1] WARN  o.s.c.l.core.RoundRobinLoadBalancer - No servers available for service: elastic-query-service
+2021-08-26 15:35:12 [boundedElastic-1] WARN  o.s.c.c.l.r.ReactorLoadBalancerExchangeFilterFunction - LoadBalancer does not contain an instance for the service elastic-query-service
+2021-08-26 15:35:12 [boundedElastic-1] ERROR reactor.Mono.FlatMap.1 - | onError(java.lang.Exception: Service Unavailable)
+2021-08-26 15:35:12 [boundedElastic-1] ERROR reactor.Mono.FlatMap.1 - 
+java.lang.Exception: Service Unavailable
+	at com.microservices.demo.elastic.query.web.client.service.impl.TwitterElasticQueryWebClient.lambda$getWebClient$3(TwitterElasticQueryWebClient.java:73)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ? 503 from POST http://elastic-query-service/elastic-query-service/documents/get-document-by-text [DefaultWebClient]
+Stack trace:
+		at com.microservices.demo.elastic.query.web.client.service.impl.TwitterElasticQueryWebClient.lambda$getWebClient$3(TwitterElasticQueryWebClient.java:73)
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec$StatusHandler.apply(DefaultWebClient.java:693)
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec.applyStatusHandlers(DefaultWebClient.java:652)
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec.handleBodyMono(DefaultWebClient.java:621)
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec.lambda$bodyToMono$2(DefaultWebClient.java:541)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:125)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:73)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:73)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:249)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:249)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.complete(MonoIgnoreThen.java:284)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onNext(MonoIgnoreThen.java:187)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:232)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203)
+		at reactor.core.publisher.Operators.complete(Operators.java:136)
+		at reactor.core.publisher.FluxFlatMap.trySubscribeScalarMap(FluxFlatMap.java:145)
+		at reactor.core.publisher.MonoFlatMap.subscribeOrReturn(MonoFlatMap.java:53)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4135)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:255)
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:157)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:151)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:120)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:82)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:98)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:44)
+		at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drainAsync(FluxFlattenIterable.java:421)
+		at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drain(FluxFlattenIterable.java:686)
+		at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.onNext(FluxFlattenIterable.java:250)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:73)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:249)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.complete(MonoIgnoreThen.java:284)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onNext(MonoIgnoreThen.java:187)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:232)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203)
+		at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onComplete(MonoIgnoreElements.java:88)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:259)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onComplete(FluxDematerialize.java:121)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:91)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:44)
+		at reactor.core.publisher.FluxIterable$IterableSubscription.fastPath(FluxIterable.java:338)
+		at reactor.core.publisher.FluxIterable$IterableSubscription.request(FluxIterable.java:225)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.request(FluxDematerialize.java:127)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.request(FluxPeek.java:137)
+		at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onSubscribe(MonoIgnoreElements.java:71)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onSubscribe(FluxPeek.java:170)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onSubscribe(FluxDematerialize.java:77)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:164)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:86)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4150)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:255)
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:157)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoCollectList$MonoCollectListSubscriber.onComplete(MonoCollectList.java:128)
+		at reactor.core.publisher.DrainUtils.postCompleteDrain(DrainUtils.java:131)
+		at reactor.core.publisher.DrainUtils.postComplete(DrainUtils.java:186)
+		at reactor.core.publisher.FluxMaterialize$MaterializeSubscriber.onComplete(FluxMaterialize.java:141)
+		at reactor.core.publisher.FluxTake$TakeSubscriber.onComplete(FluxTake.java:152)
+		at reactor.core.publisher.FluxTake$TakeSubscriber.onNext(FluxTake.java:132)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.SerializedSubscriber.onNext(SerializedSubscriber.java:99)
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.onNext(FluxTimeout.java:179)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoCollectList$MonoCollectListSubscriber.onComplete(MonoCollectList.java:128)
+		at org.springframework.cloud.commons.publisher.FluxFirstNonEmptyEmitting$FirstNonEmptyEmittingSubscriber.onComplete(FluxFirstNonEmptyEmitting.java:325)
+		at reactor.core.publisher.Operators.complete(Operators.java:136)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:147)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:86)
+		at reactor.core.publisher.Flux.subscribe(Flux.java:8235)
+		at org.springframework.cloud.commons.publisher.FluxFirstNonEmptyEmitting$RaceCoordinator.subscribe(FluxFirstNonEmptyEmitting.java:203)
+		at org.springframework.cloud.commons.publisher.FluxFirstNonEmptyEmitting.subscribe(FluxFirstNonEmptyEmitting.java:128)
+		at reactor.core.publisher.InternalFluxOperator.subscribe(InternalFluxOperator.java:62)
+		at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:54)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4150)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onComplete(FluxSwitchIfEmpty.java:81)
+		at reactor.core.publisher.Operators.complete(Operators.java:136)
+		at reactor.core.publisher.MonoEmpty.subscribe(MonoEmpty.java:45)
+		at reactor.core.publisher.InternalFluxOperator.subscribe(InternalFluxOperator.java:62)
+		at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:54)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:157)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:120)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:73)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:249)
+		at reactor.core.publisher.FluxSubscribeOnCallable$CallableSubscribeOnSubscription.run(FluxSubscribeOnCallable.java:251)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28)
+		at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at java.base/java.lang.Thread.run(Unknown Source)
+2021-08-26 15:35:12 [http-nio-8184-exec-8] ERROR c.m.d.e.q.w.c.c.a.e.h.ElasticQueryWebClientErrorHandler - Service runtime exception!
+reactor.core.Exceptions$ReactiveException: java.lang.Exception: Service Unavailable
+	at reactor.core.Exceptions.propagate(Exceptions.java:392)
+	at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:97)
+	at reactor.core.publisher.Mono.block(Mono.java:1703)
+	at com.microservices.demo.elastic.query.web.client.service.impl.TwitterElasticQueryWebClient.getDataByText(TwitterElasticQueryWebClient.java:53)
+	at com.microservices.demo.elastic.query.web.client.api.QueryController.queryByText(QueryController.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:121)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.oauth2.client.web.OAuth2AuthorizationCodeGrantFilter.doFilterInternal(OAuth2AuthorizationCodeGrantFilter.java:168)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter.doFilterInternal(DefaultLogoutPageGeneratingFilter.java:58)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:237)
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:223)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:218)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter.doFilterInternal(OAuth2AuthorizationRequestRedirectFilter.java:178)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter.doFilterInternal(OAuth2AuthorizationRequestRedirectFilter.java:178)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:132)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Unknown Source)
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:99)
+		... 109 common frames omitted
+Caused by: java.lang.Exception: Service Unavailable
+	at com.microservices.demo.elastic.query.web.client.service.impl.TwitterElasticQueryWebClient.lambda$getWebClient$3(TwitterElasticQueryWebClient.java:73)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ? 503 from POST http://elastic-query-service/elastic-query-service/documents/get-document-by-text [DefaultWebClient]
+Stack trace:
+		at com.microservices.demo.elastic.query.web.client.service.impl.TwitterElasticQueryWebClient.lambda$getWebClient$3(TwitterElasticQueryWebClient.java:73)
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec$StatusHandler.apply(DefaultWebClient.java:693)
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec.applyStatusHandlers(DefaultWebClient.java:652)
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec.handleBodyMono(DefaultWebClient.java:621)
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec.lambda$bodyToMono$2(DefaultWebClient.java:541)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:125)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:73)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:73)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:249)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:249)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.complete(MonoIgnoreThen.java:284)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onNext(MonoIgnoreThen.java:187)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:232)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203)
+		at reactor.core.publisher.Operators.complete(Operators.java:136)
+		at reactor.core.publisher.FluxFlatMap.trySubscribeScalarMap(FluxFlatMap.java:145)
+		at reactor.core.publisher.MonoFlatMap.subscribeOrReturn(MonoFlatMap.java:53)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4135)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:255)
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:157)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:151)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:120)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:82)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:98)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:44)
+		at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drainAsync(FluxFlattenIterable.java:421)
+		at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drain(FluxFlattenIterable.java:686)
+		at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.onNext(FluxFlattenIterable.java:250)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:73)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:249)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.complete(MonoIgnoreThen.java:284)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onNext(MonoIgnoreThen.java:187)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:232)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203)
+		at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onComplete(MonoIgnoreElements.java:88)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:259)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onComplete(FluxDematerialize.java:121)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:91)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:44)
+		at reactor.core.publisher.FluxIterable$IterableSubscription.fastPath(FluxIterable.java:338)
+		at reactor.core.publisher.FluxIterable$IterableSubscription.request(FluxIterable.java:225)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.request(FluxDematerialize.java:127)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.request(FluxPeek.java:137)
+		at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onSubscribe(MonoIgnoreElements.java:71)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onSubscribe(FluxPeek.java:170)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onSubscribe(FluxDematerialize.java:77)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:164)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:86)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4150)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:255)
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:157)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoCollectList$MonoCollectListSubscriber.onComplete(MonoCollectList.java:128)
+		at reactor.core.publisher.DrainUtils.postCompleteDrain(DrainUtils.java:131)
+		at reactor.core.publisher.DrainUtils.postComplete(DrainUtils.java:186)
+		at reactor.core.publisher.FluxMaterialize$MaterializeSubscriber.onComplete(FluxMaterialize.java:141)
+		at reactor.core.publisher.FluxTake$TakeSubscriber.onComplete(FluxTake.java:152)
+		at reactor.core.publisher.FluxTake$TakeSubscriber.onNext(FluxTake.java:132)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.SerializedSubscriber.onNext(SerializedSubscriber.java:99)
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.onNext(FluxTimeout.java:179)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoCollectList$MonoCollectListSubscriber.onComplete(MonoCollectList.java:128)
+		at org.springframework.cloud.commons.publisher.FluxFirstNonEmptyEmitting$FirstNonEmptyEmittingSubscriber.onComplete(FluxFirstNonEmptyEmitting.java:325)
+		at reactor.core.publisher.Operators.complete(Operators.java:136)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:147)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:86)
+		at reactor.core.publisher.Flux.subscribe(Flux.java:8235)
+		at org.springframework.cloud.commons.publisher.FluxFirstNonEmptyEmitting$RaceCoordinator.subscribe(FluxFirstNonEmptyEmitting.java:203)
+		at org.springframework.cloud.commons.publisher.FluxFirstNonEmptyEmitting.subscribe(FluxFirstNonEmptyEmitting.java:128)
+		at reactor.core.publisher.InternalFluxOperator.subscribe(InternalFluxOperator.java:62)
+		at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:54)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4150)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onComplete(FluxSwitchIfEmpty.java:81)
+		at reactor.core.publisher.Operators.complete(Operators.java:136)
+		at reactor.core.publisher.MonoEmpty.subscribe(MonoEmpty.java:45)
+		at reactor.core.publisher.InternalFluxOperator.subscribe(InternalFluxOperator.java:62)
+		at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:54)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:157)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:120)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:73)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:249)
+		at reactor.core.publisher.FluxSubscribeOnCallable$CallableSubscribeOnSubscription.run(FluxSubscribeOnCallable.java:251)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28)
+		at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at java.base/java.lang.Thread.run(Unknown Source)
+2021-08-26 15:35:16 [http-nio-8184-exec-5] INFO  c.m.d.e.q.w.c.api.QueryController - Querying with text java
+2021-08-26 15:35:16 [http-nio-8184-exec-5] INFO  c.m.d.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text java
+2021-08-26 15:35:16 [http-nio-8184-exec-5] INFO  reactor.Mono.FlatMap.2 - | onSubscribe([Fuseable] MonoFlatMap.FlatMapMain)
+2021-08-26 15:35:16 [http-nio-8184-exec-5] INFO  reactor.Mono.FlatMap.2 - | request(unbounded)
+2021-08-26 15:35:16 [boundedElastic-1] WARN  o.s.c.l.core.RoundRobinLoadBalancer - No servers available for service: elastic-query-service
+2021-08-26 15:35:16 [boundedElastic-1] WARN  o.s.c.c.l.r.ReactorLoadBalancerExchangeFilterFunction - LoadBalancer does not contain an instance for the service elastic-query-service
+2021-08-26 15:35:16 [boundedElastic-1] ERROR reactor.Mono.FlatMap.2 - | onError(java.lang.Exception: Service Unavailable)
+2021-08-26 15:35:16 [boundedElastic-1] ERROR reactor.Mono.FlatMap.2 - 
+java.lang.Exception: Service Unavailable
+	at com.microservices.demo.elastic.query.web.client.service.impl.TwitterElasticQueryWebClient.lambda$getWebClient$3(TwitterElasticQueryWebClient.java:73)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ? 503 from POST http://elastic-query-service/elastic-query-service/documents/get-document-by-text [DefaultWebClient]
+Stack trace:
+		at com.microservices.demo.elastic.query.web.client.service.impl.TwitterElasticQueryWebClient.lambda$getWebClient$3(TwitterElasticQueryWebClient.java:73)
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec$StatusHandler.apply(DefaultWebClient.java:693)
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec.applyStatusHandlers(DefaultWebClient.java:652)
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec.handleBodyMono(DefaultWebClient.java:621)
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec.lambda$bodyToMono$2(DefaultWebClient.java:541)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:125)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:73)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:73)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:249)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:249)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.complete(MonoIgnoreThen.java:284)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onNext(MonoIgnoreThen.java:187)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:232)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203)
+		at reactor.core.publisher.Operators.complete(Operators.java:136)
+		at reactor.core.publisher.FluxFlatMap.trySubscribeScalarMap(FluxFlatMap.java:145)
+		at reactor.core.publisher.MonoFlatMap.subscribeOrReturn(MonoFlatMap.java:53)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4135)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:255)
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:157)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:151)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:120)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:82)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:98)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:44)
+		at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drainAsync(FluxFlattenIterable.java:421)
+		at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drain(FluxFlattenIterable.java:686)
+		at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.onNext(FluxFlattenIterable.java:250)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:73)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:249)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.complete(MonoIgnoreThen.java:284)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onNext(MonoIgnoreThen.java:187)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:232)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203)
+		at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onComplete(MonoIgnoreElements.java:88)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:259)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onComplete(FluxDematerialize.java:121)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:91)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:44)
+		at reactor.core.publisher.FluxIterable$IterableSubscription.fastPath(FluxIterable.java:338)
+		at reactor.core.publisher.FluxIterable$IterableSubscription.request(FluxIterable.java:225)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.request(FluxDematerialize.java:127)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.request(FluxPeek.java:137)
+		at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onSubscribe(MonoIgnoreElements.java:71)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onSubscribe(FluxPeek.java:170)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onSubscribe(FluxDematerialize.java:77)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:164)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:86)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4150)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:255)
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:157)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoCollectList$MonoCollectListSubscriber.onComplete(MonoCollectList.java:128)
+		at reactor.core.publisher.DrainUtils.postCompleteDrain(DrainUtils.java:131)
+		at reactor.core.publisher.DrainUtils.postComplete(DrainUtils.java:186)
+		at reactor.core.publisher.FluxMaterialize$MaterializeSubscriber.onComplete(FluxMaterialize.java:141)
+		at reactor.core.publisher.FluxTake$TakeSubscriber.onComplete(FluxTake.java:152)
+		at reactor.core.publisher.FluxTake$TakeSubscriber.onNext(FluxTake.java:132)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.SerializedSubscriber.onNext(SerializedSubscriber.java:99)
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.onNext(FluxTimeout.java:179)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoCollectList$MonoCollectListSubscriber.onComplete(MonoCollectList.java:128)
+		at org.springframework.cloud.commons.publisher.FluxFirstNonEmptyEmitting$FirstNonEmptyEmittingSubscriber.onComplete(FluxFirstNonEmptyEmitting.java:325)
+		at reactor.core.publisher.Operators.complete(Operators.java:136)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:147)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:86)
+		at reactor.core.publisher.Flux.subscribe(Flux.java:8235)
+		at org.springframework.cloud.commons.publisher.FluxFirstNonEmptyEmitting$RaceCoordinator.subscribe(FluxFirstNonEmptyEmitting.java:203)
+		at org.springframework.cloud.commons.publisher.FluxFirstNonEmptyEmitting.subscribe(FluxFirstNonEmptyEmitting.java:128)
+		at reactor.core.publisher.InternalFluxOperator.subscribe(InternalFluxOperator.java:62)
+		at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:54)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4150)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onComplete(FluxSwitchIfEmpty.java:81)
+		at reactor.core.publisher.Operators.complete(Operators.java:136)
+		at reactor.core.publisher.MonoEmpty.subscribe(MonoEmpty.java:45)
+		at reactor.core.publisher.InternalFluxOperator.subscribe(InternalFluxOperator.java:62)
+		at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:54)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:157)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:120)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:73)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:249)
+		at reactor.core.publisher.FluxSubscribeOnCallable$CallableSubscribeOnSubscription.run(FluxSubscribeOnCallable.java:251)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28)
+		at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at java.base/java.lang.Thread.run(Unknown Source)
+2021-08-26 15:35:16 [http-nio-8184-exec-5] ERROR c.m.d.e.q.w.c.c.a.e.h.ElasticQueryWebClientErrorHandler - Service runtime exception!
+reactor.core.Exceptions$ReactiveException: java.lang.Exception: Service Unavailable
+	at reactor.core.Exceptions.propagate(Exceptions.java:392)
+	at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:97)
+	at reactor.core.publisher.Mono.block(Mono.java:1703)
+	at com.microservices.demo.elastic.query.web.client.service.impl.TwitterElasticQueryWebClient.getDataByText(TwitterElasticQueryWebClient.java:53)
+	at com.microservices.demo.elastic.query.web.client.api.QueryController.queryByText(QueryController.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:121)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.oauth2.client.web.OAuth2AuthorizationCodeGrantFilter.doFilterInternal(OAuth2AuthorizationCodeGrantFilter.java:168)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter.doFilterInternal(DefaultLogoutPageGeneratingFilter.java:58)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:237)
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:223)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:218)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter.doFilterInternal(OAuth2AuthorizationRequestRedirectFilter.java:178)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter.doFilterInternal(OAuth2AuthorizationRequestRedirectFilter.java:178)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:132)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Unknown Source)
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:99)
+		... 109 common frames omitted
+Caused by: java.lang.Exception: Service Unavailable
+	at com.microservices.demo.elastic.query.web.client.service.impl.TwitterElasticQueryWebClient.lambda$getWebClient$3(TwitterElasticQueryWebClient.java:73)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ? 503 from POST http://elastic-query-service/elastic-query-service/documents/get-document-by-text [DefaultWebClient]
+Stack trace:
+		at com.microservices.demo.elastic.query.web.client.service.impl.TwitterElasticQueryWebClient.lambda$getWebClient$3(TwitterElasticQueryWebClient.java:73)
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec$StatusHandler.apply(DefaultWebClient.java:693)
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec.applyStatusHandlers(DefaultWebClient.java:652)
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec.handleBodyMono(DefaultWebClient.java:621)
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec.lambda$bodyToMono$2(DefaultWebClient.java:541)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:125)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:73)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:73)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:249)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:249)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.complete(MonoIgnoreThen.java:284)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onNext(MonoIgnoreThen.java:187)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:232)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203)
+		at reactor.core.publisher.Operators.complete(Operators.java:136)
+		at reactor.core.publisher.FluxFlatMap.trySubscribeScalarMap(FluxFlatMap.java:145)
+		at reactor.core.publisher.MonoFlatMap.subscribeOrReturn(MonoFlatMap.java:53)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4135)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:255)
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:157)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:151)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:120)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:82)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:98)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:44)
+		at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drainAsync(FluxFlattenIterable.java:421)
+		at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drain(FluxFlattenIterable.java:686)
+		at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.onNext(FluxFlattenIterable.java:250)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:73)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:249)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.complete(MonoIgnoreThen.java:284)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onNext(MonoIgnoreThen.java:187)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:232)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203)
+		at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onComplete(MonoIgnoreElements.java:88)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:259)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onComplete(FluxDematerialize.java:121)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:91)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:44)
+		at reactor.core.publisher.FluxIterable$IterableSubscription.fastPath(FluxIterable.java:338)
+		at reactor.core.publisher.FluxIterable$IterableSubscription.request(FluxIterable.java:225)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.request(FluxDematerialize.java:127)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.request(FluxPeek.java:137)
+		at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onSubscribe(MonoIgnoreElements.java:71)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onSubscribe(FluxPeek.java:170)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onSubscribe(FluxDematerialize.java:77)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:164)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:86)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4150)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:255)
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:157)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoCollectList$MonoCollectListSubscriber.onComplete(MonoCollectList.java:128)
+		at reactor.core.publisher.DrainUtils.postCompleteDrain(DrainUtils.java:131)
+		at reactor.core.publisher.DrainUtils.postComplete(DrainUtils.java:186)
+		at reactor.core.publisher.FluxMaterialize$MaterializeSubscriber.onComplete(FluxMaterialize.java:141)
+		at reactor.core.publisher.FluxTake$TakeSubscriber.onComplete(FluxTake.java:152)
+		at reactor.core.publisher.FluxTake$TakeSubscriber.onNext(FluxTake.java:132)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.SerializedSubscriber.onNext(SerializedSubscriber.java:99)
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.onNext(FluxTimeout.java:179)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoCollectList$MonoCollectListSubscriber.onComplete(MonoCollectList.java:128)
+		at org.springframework.cloud.commons.publisher.FluxFirstNonEmptyEmitting$FirstNonEmptyEmittingSubscriber.onComplete(FluxFirstNonEmptyEmitting.java:325)
+		at reactor.core.publisher.Operators.complete(Operators.java:136)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:147)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:86)
+		at reactor.core.publisher.Flux.subscribe(Flux.java:8235)
+		at org.springframework.cloud.commons.publisher.FluxFirstNonEmptyEmitting$RaceCoordinator.subscribe(FluxFirstNonEmptyEmitting.java:203)
+		at org.springframework.cloud.commons.publisher.FluxFirstNonEmptyEmitting.subscribe(FluxFirstNonEmptyEmitting.java:128)
+		at reactor.core.publisher.InternalFluxOperator.subscribe(InternalFluxOperator.java:62)
+		at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:54)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4150)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onComplete(FluxSwitchIfEmpty.java:81)
+		at reactor.core.publisher.Operators.complete(Operators.java:136)
+		at reactor.core.publisher.MonoEmpty.subscribe(MonoEmpty.java:45)
+		at reactor.core.publisher.InternalFluxOperator.subscribe(InternalFluxOperator.java:62)
+		at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:54)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:157)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:120)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:73)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:249)
+		at reactor.core.publisher.FluxSubscribeOnCallable$CallableSubscribeOnSubscription.run(FluxSubscribeOnCallable.java:251)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28)
+		at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at java.base/java.lang.Thread.run(Unknown Source)
+2021-08-26 15:35:20 [http-nio-8184-exec-10] INFO  c.m.d.e.q.w.c.api.QueryController - Querying with text the
+2021-08-26 15:35:20 [http-nio-8184-exec-10] INFO  c.m.d.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text the
+2021-08-26 15:35:20 [http-nio-8184-exec-10] INFO  reactor.Mono.FlatMap.3 - | onSubscribe([Fuseable] MonoFlatMap.FlatMapMain)
+2021-08-26 15:35:20 [http-nio-8184-exec-10] INFO  reactor.Mono.FlatMap.3 - | request(unbounded)
+2021-08-26 15:35:20 [boundedElastic-1] WARN  o.s.c.l.core.RoundRobinLoadBalancer - No servers available for service: elastic-query-service
+2021-08-26 15:35:20 [boundedElastic-1] WARN  o.s.c.c.l.r.ReactorLoadBalancerExchangeFilterFunction - LoadBalancer does not contain an instance for the service elastic-query-service
+2021-08-26 15:35:20 [boundedElastic-1] ERROR reactor.Mono.FlatMap.3 - | onError(java.lang.Exception: Service Unavailable)
+2021-08-26 15:35:20 [boundedElastic-1] ERROR reactor.Mono.FlatMap.3 - 
+java.lang.Exception: Service Unavailable
+	at com.microservices.demo.elastic.query.web.client.service.impl.TwitterElasticQueryWebClient.lambda$getWebClient$3(TwitterElasticQueryWebClient.java:73)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ? 503 from POST http://elastic-query-service/elastic-query-service/documents/get-document-by-text [DefaultWebClient]
+Stack trace:
+		at com.microservices.demo.elastic.query.web.client.service.impl.TwitterElasticQueryWebClient.lambda$getWebClient$3(TwitterElasticQueryWebClient.java:73)
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec$StatusHandler.apply(DefaultWebClient.java:693)
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec.applyStatusHandlers(DefaultWebClient.java:652)
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec.handleBodyMono(DefaultWebClient.java:621)
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec.lambda$bodyToMono$2(DefaultWebClient.java:541)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:125)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:73)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:73)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:249)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:249)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.complete(MonoIgnoreThen.java:284)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onNext(MonoIgnoreThen.java:187)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:232)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203)
+		at reactor.core.publisher.Operators.complete(Operators.java:136)
+		at reactor.core.publisher.FluxFlatMap.trySubscribeScalarMap(FluxFlatMap.java:145)
+		at reactor.core.publisher.MonoFlatMap.subscribeOrReturn(MonoFlatMap.java:53)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4135)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:255)
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:157)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:151)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:120)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:82)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:98)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:44)
+		at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drainAsync(FluxFlattenIterable.java:421)
+		at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drain(FluxFlattenIterable.java:686)
+		at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.onNext(FluxFlattenIterable.java:250)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:73)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:249)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.complete(MonoIgnoreThen.java:284)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onNext(MonoIgnoreThen.java:187)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:232)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203)
+		at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onComplete(MonoIgnoreElements.java:88)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:259)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onComplete(FluxDematerialize.java:121)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:91)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:44)
+		at reactor.core.publisher.FluxIterable$IterableSubscription.fastPath(FluxIterable.java:338)
+		at reactor.core.publisher.FluxIterable$IterableSubscription.request(FluxIterable.java:225)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.request(FluxDematerialize.java:127)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.request(FluxPeek.java:137)
+		at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onSubscribe(MonoIgnoreElements.java:71)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onSubscribe(FluxPeek.java:170)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onSubscribe(FluxDematerialize.java:77)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:164)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:86)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4150)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:255)
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:157)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoCollectList$MonoCollectListSubscriber.onComplete(MonoCollectList.java:128)
+		at reactor.core.publisher.DrainUtils.postCompleteDrain(DrainUtils.java:131)
+		at reactor.core.publisher.DrainUtils.postComplete(DrainUtils.java:186)
+		at reactor.core.publisher.FluxMaterialize$MaterializeSubscriber.onComplete(FluxMaterialize.java:141)
+		at reactor.core.publisher.FluxTake$TakeSubscriber.onComplete(FluxTake.java:152)
+		at reactor.core.publisher.FluxTake$TakeSubscriber.onNext(FluxTake.java:132)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.SerializedSubscriber.onNext(SerializedSubscriber.java:99)
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.onNext(FluxTimeout.java:179)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoCollectList$MonoCollectListSubscriber.onComplete(MonoCollectList.java:128)
+		at org.springframework.cloud.commons.publisher.FluxFirstNonEmptyEmitting$FirstNonEmptyEmittingSubscriber.onComplete(FluxFirstNonEmptyEmitting.java:325)
+		at reactor.core.publisher.Operators.complete(Operators.java:136)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:147)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:86)
+		at reactor.core.publisher.Flux.subscribe(Flux.java:8235)
+		at org.springframework.cloud.commons.publisher.FluxFirstNonEmptyEmitting$RaceCoordinator.subscribe(FluxFirstNonEmptyEmitting.java:203)
+		at org.springframework.cloud.commons.publisher.FluxFirstNonEmptyEmitting.subscribe(FluxFirstNonEmptyEmitting.java:128)
+		at reactor.core.publisher.InternalFluxOperator.subscribe(InternalFluxOperator.java:62)
+		at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:54)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4150)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onComplete(FluxSwitchIfEmpty.java:81)
+		at reactor.core.publisher.Operators.complete(Operators.java:136)
+		at reactor.core.publisher.MonoEmpty.subscribe(MonoEmpty.java:45)
+		at reactor.core.publisher.InternalFluxOperator.subscribe(InternalFluxOperator.java:62)
+		at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:54)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:157)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:120)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:73)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:249)
+		at reactor.core.publisher.FluxSubscribeOnCallable$CallableSubscribeOnSubscription.run(FluxSubscribeOnCallable.java:251)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28)
+		at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at java.base/java.lang.Thread.run(Unknown Source)
+2021-08-26 15:35:20 [http-nio-8184-exec-10] ERROR c.m.d.e.q.w.c.c.a.e.h.ElasticQueryWebClientErrorHandler - Service runtime exception!
+reactor.core.Exceptions$ReactiveException: java.lang.Exception: Service Unavailable
+	at reactor.core.Exceptions.propagate(Exceptions.java:392)
+	at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:97)
+	at reactor.core.publisher.Mono.block(Mono.java:1703)
+	at com.microservices.demo.elastic.query.web.client.service.impl.TwitterElasticQueryWebClient.getDataByText(TwitterElasticQueryWebClient.java:53)
+	at com.microservices.demo.elastic.query.web.client.api.QueryController.queryByText(QueryController.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:121)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.oauth2.client.web.OAuth2AuthorizationCodeGrantFilter.doFilterInternal(OAuth2AuthorizationCodeGrantFilter.java:168)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter.doFilterInternal(DefaultLogoutPageGeneratingFilter.java:58)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:237)
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:223)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:218)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter.doFilterInternal(OAuth2AuthorizationRequestRedirectFilter.java:178)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter.doFilterInternal(OAuth2AuthorizationRequestRedirectFilter.java:178)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:132)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Unknown Source)
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:99)
+		... 109 common frames omitted
+Caused by: java.lang.Exception: Service Unavailable
+	at com.microservices.demo.elastic.query.web.client.service.impl.TwitterElasticQueryWebClient.lambda$getWebClient$3(TwitterElasticQueryWebClient.java:73)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ? 503 from POST http://elastic-query-service/elastic-query-service/documents/get-document-by-text [DefaultWebClient]
+Stack trace:
+		at com.microservices.demo.elastic.query.web.client.service.impl.TwitterElasticQueryWebClient.lambda$getWebClient$3(TwitterElasticQueryWebClient.java:73)
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec$StatusHandler.apply(DefaultWebClient.java:693)
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec.applyStatusHandlers(DefaultWebClient.java:652)
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec.handleBodyMono(DefaultWebClient.java:621)
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec.lambda$bodyToMono$2(DefaultWebClient.java:541)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:125)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:73)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:73)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:249)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:249)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.complete(MonoIgnoreThen.java:284)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onNext(MonoIgnoreThen.java:187)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:232)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203)
+		at reactor.core.publisher.Operators.complete(Operators.java:136)
+		at reactor.core.publisher.FluxFlatMap.trySubscribeScalarMap(FluxFlatMap.java:145)
+		at reactor.core.publisher.MonoFlatMap.subscribeOrReturn(MonoFlatMap.java:53)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4135)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:255)
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:157)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:151)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:120)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:82)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:98)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:44)
+		at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drainAsync(FluxFlattenIterable.java:421)
+		at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drain(FluxFlattenIterable.java:686)
+		at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.onNext(FluxFlattenIterable.java:250)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:73)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:249)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.complete(MonoIgnoreThen.java:284)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onNext(MonoIgnoreThen.java:187)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:232)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203)
+		at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onComplete(MonoIgnoreElements.java:88)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:259)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onComplete(FluxDematerialize.java:121)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:91)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:44)
+		at reactor.core.publisher.FluxIterable$IterableSubscription.fastPath(FluxIterable.java:338)
+		at reactor.core.publisher.FluxIterable$IterableSubscription.request(FluxIterable.java:225)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.request(FluxDematerialize.java:127)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.request(FluxPeek.java:137)
+		at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onSubscribe(MonoIgnoreElements.java:71)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onSubscribe(FluxPeek.java:170)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onSubscribe(FluxDematerialize.java:77)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:164)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:86)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4150)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:255)
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:157)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoCollectList$MonoCollectListSubscriber.onComplete(MonoCollectList.java:128)
+		at reactor.core.publisher.DrainUtils.postCompleteDrain(DrainUtils.java:131)
+		at reactor.core.publisher.DrainUtils.postComplete(DrainUtils.java:186)
+		at reactor.core.publisher.FluxMaterialize$MaterializeSubscriber.onComplete(FluxMaterialize.java:141)
+		at reactor.core.publisher.FluxTake$TakeSubscriber.onComplete(FluxTake.java:152)
+		at reactor.core.publisher.FluxTake$TakeSubscriber.onNext(FluxTake.java:132)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.SerializedSubscriber.onNext(SerializedSubscriber.java:99)
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.onNext(FluxTimeout.java:179)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoCollectList$MonoCollectListSubscriber.onComplete(MonoCollectList.java:128)
+		at org.springframework.cloud.commons.publisher.FluxFirstNonEmptyEmitting$FirstNonEmptyEmittingSubscriber.onComplete(FluxFirstNonEmptyEmitting.java:325)
+		at reactor.core.publisher.Operators.complete(Operators.java:136)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:147)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:86)
+		at reactor.core.publisher.Flux.subscribe(Flux.java:8235)
+		at org.springframework.cloud.commons.publisher.FluxFirstNonEmptyEmitting$RaceCoordinator.subscribe(FluxFirstNonEmptyEmitting.java:203)
+		at org.springframework.cloud.commons.publisher.FluxFirstNonEmptyEmitting.subscribe(FluxFirstNonEmptyEmitting.java:128)
+		at reactor.core.publisher.InternalFluxOperator.subscribe(InternalFluxOperator.java:62)
+		at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:54)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4150)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onComplete(FluxSwitchIfEmpty.java:81)
+		at reactor.core.publisher.Operators.complete(Operators.java:136)
+		at reactor.core.publisher.MonoEmpty.subscribe(MonoEmpty.java:45)
+		at reactor.core.publisher.InternalFluxOperator.subscribe(InternalFluxOperator.java:62)
+		at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:54)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:157)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:120)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:73)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:249)
+		at reactor.core.publisher.FluxSubscribeOnCallable$CallableSubscribeOnSubscription.run(FluxSubscribeOnCallable.java:251)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28)
+		at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at java.base/java.lang.Thread.run(Unknown Source)
+2021-08-26 15:35:23 [http-nio-8184-exec-9] INFO  c.m.d.e.q.w.c.api.QueryController - Querying with text word
+2021-08-26 15:35:23 [http-nio-8184-exec-9] INFO  c.m.d.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text word
+2021-08-26 15:35:23 [http-nio-8184-exec-9] INFO  reactor.Mono.FlatMap.4 - | onSubscribe([Fuseable] MonoFlatMap.FlatMapMain)
+2021-08-26 15:35:23 [http-nio-8184-exec-9] INFO  reactor.Mono.FlatMap.4 - | request(unbounded)
+2021-08-26 15:35:23 [boundedElastic-1] WARN  o.s.c.l.core.RoundRobinLoadBalancer - No servers available for service: elastic-query-service
+2021-08-26 15:35:23 [boundedElastic-1] WARN  o.s.c.c.l.r.ReactorLoadBalancerExchangeFilterFunction - LoadBalancer does not contain an instance for the service elastic-query-service
+2021-08-26 15:35:23 [boundedElastic-1] ERROR reactor.Mono.FlatMap.4 - | onError(java.lang.Exception: Service Unavailable)
+2021-08-26 15:35:23 [boundedElastic-1] ERROR reactor.Mono.FlatMap.4 - 
+java.lang.Exception: Service Unavailable
+	at com.microservices.demo.elastic.query.web.client.service.impl.TwitterElasticQueryWebClient.lambda$getWebClient$3(TwitterElasticQueryWebClient.java:73)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ? 503 from POST http://elastic-query-service/elastic-query-service/documents/get-document-by-text [DefaultWebClient]
+Stack trace:
+		at com.microservices.demo.elastic.query.web.client.service.impl.TwitterElasticQueryWebClient.lambda$getWebClient$3(TwitterElasticQueryWebClient.java:73)
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec$StatusHandler.apply(DefaultWebClient.java:693)
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec.applyStatusHandlers(DefaultWebClient.java:652)
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec.handleBodyMono(DefaultWebClient.java:621)
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec.lambda$bodyToMono$2(DefaultWebClient.java:541)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:125)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:73)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:73)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:249)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:249)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.complete(MonoIgnoreThen.java:284)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onNext(MonoIgnoreThen.java:187)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:232)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203)
+		at reactor.core.publisher.Operators.complete(Operators.java:136)
+		at reactor.core.publisher.FluxFlatMap.trySubscribeScalarMap(FluxFlatMap.java:145)
+		at reactor.core.publisher.MonoFlatMap.subscribeOrReturn(MonoFlatMap.java:53)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4135)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:255)
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:157)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:151)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:120)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:82)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:98)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:44)
+		at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drainAsync(FluxFlattenIterable.java:421)
+		at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drain(FluxFlattenIterable.java:686)
+		at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.onNext(FluxFlattenIterable.java:250)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:73)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:249)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.complete(MonoIgnoreThen.java:284)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onNext(MonoIgnoreThen.java:187)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:232)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203)
+		at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onComplete(MonoIgnoreElements.java:88)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:259)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onComplete(FluxDematerialize.java:121)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:91)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:44)
+		at reactor.core.publisher.FluxIterable$IterableSubscription.fastPath(FluxIterable.java:338)
+		at reactor.core.publisher.FluxIterable$IterableSubscription.request(FluxIterable.java:225)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.request(FluxDematerialize.java:127)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.request(FluxPeek.java:137)
+		at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onSubscribe(MonoIgnoreElements.java:71)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onSubscribe(FluxPeek.java:170)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onSubscribe(FluxDematerialize.java:77)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:164)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:86)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4150)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:255)
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:157)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoCollectList$MonoCollectListSubscriber.onComplete(MonoCollectList.java:128)
+		at reactor.core.publisher.DrainUtils.postCompleteDrain(DrainUtils.java:131)
+		at reactor.core.publisher.DrainUtils.postComplete(DrainUtils.java:186)
+		at reactor.core.publisher.FluxMaterialize$MaterializeSubscriber.onComplete(FluxMaterialize.java:141)
+		at reactor.core.publisher.FluxTake$TakeSubscriber.onComplete(FluxTake.java:152)
+		at reactor.core.publisher.FluxTake$TakeSubscriber.onNext(FluxTake.java:132)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.SerializedSubscriber.onNext(SerializedSubscriber.java:99)
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.onNext(FluxTimeout.java:179)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoCollectList$MonoCollectListSubscriber.onComplete(MonoCollectList.java:128)
+		at org.springframework.cloud.commons.publisher.FluxFirstNonEmptyEmitting$FirstNonEmptyEmittingSubscriber.onComplete(FluxFirstNonEmptyEmitting.java:325)
+		at reactor.core.publisher.Operators.complete(Operators.java:136)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:147)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:86)
+		at reactor.core.publisher.Flux.subscribe(Flux.java:8235)
+		at org.springframework.cloud.commons.publisher.FluxFirstNonEmptyEmitting$RaceCoordinator.subscribe(FluxFirstNonEmptyEmitting.java:203)
+		at org.springframework.cloud.commons.publisher.FluxFirstNonEmptyEmitting.subscribe(FluxFirstNonEmptyEmitting.java:128)
+		at reactor.core.publisher.InternalFluxOperator.subscribe(InternalFluxOperator.java:62)
+		at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:54)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4150)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onComplete(FluxSwitchIfEmpty.java:81)
+		at reactor.core.publisher.Operators.complete(Operators.java:136)
+		at reactor.core.publisher.MonoEmpty.subscribe(MonoEmpty.java:45)
+		at reactor.core.publisher.InternalFluxOperator.subscribe(InternalFluxOperator.java:62)
+		at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:54)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:157)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:120)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:73)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:249)
+		at reactor.core.publisher.FluxSubscribeOnCallable$CallableSubscribeOnSubscription.run(FluxSubscribeOnCallable.java:251)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28)
+		at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at java.base/java.lang.Thread.run(Unknown Source)
+2021-08-26 15:35:23 [http-nio-8184-exec-9] ERROR c.m.d.e.q.w.c.c.a.e.h.ElasticQueryWebClientErrorHandler - Service runtime exception!
+reactor.core.Exceptions$ReactiveException: java.lang.Exception: Service Unavailable
+	at reactor.core.Exceptions.propagate(Exceptions.java:392)
+	at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:97)
+	at reactor.core.publisher.Mono.block(Mono.java:1703)
+	at com.microservices.demo.elastic.query.web.client.service.impl.TwitterElasticQueryWebClient.getDataByText(TwitterElasticQueryWebClient.java:53)
+	at com.microservices.demo.elastic.query.web.client.api.QueryController.queryByText(QueryController.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:121)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.oauth2.client.web.OAuth2AuthorizationCodeGrantFilter.doFilterInternal(OAuth2AuthorizationCodeGrantFilter.java:168)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter.doFilterInternal(DefaultLogoutPageGeneratingFilter.java:58)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:237)
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:223)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:218)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter.doFilterInternal(OAuth2AuthorizationRequestRedirectFilter.java:178)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter.doFilterInternal(OAuth2AuthorizationRequestRedirectFilter.java:178)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:132)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Unknown Source)
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:99)
+		... 109 common frames omitted
+Caused by: java.lang.Exception: Service Unavailable
+	at com.microservices.demo.elastic.query.web.client.service.impl.TwitterElasticQueryWebClient.lambda$getWebClient$3(TwitterElasticQueryWebClient.java:73)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ? 503 from POST http://elastic-query-service/elastic-query-service/documents/get-document-by-text [DefaultWebClient]
+Stack trace:
+		at com.microservices.demo.elastic.query.web.client.service.impl.TwitterElasticQueryWebClient.lambda$getWebClient$3(TwitterElasticQueryWebClient.java:73)
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec$StatusHandler.apply(DefaultWebClient.java:693)
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec.applyStatusHandlers(DefaultWebClient.java:652)
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec.handleBodyMono(DefaultWebClient.java:621)
+		at org.springframework.web.reactive.function.client.DefaultWebClient$DefaultResponseSpec.lambda$bodyToMono$2(DefaultWebClient.java:541)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:125)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:73)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:73)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:249)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:249)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.complete(MonoIgnoreThen.java:284)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onNext(MonoIgnoreThen.java:187)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:232)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203)
+		at reactor.core.publisher.Operators.complete(Operators.java:136)
+		at reactor.core.publisher.FluxFlatMap.trySubscribeScalarMap(FluxFlatMap.java:145)
+		at reactor.core.publisher.MonoFlatMap.subscribeOrReturn(MonoFlatMap.java:53)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4135)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:255)
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:157)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:151)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:120)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:82)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:98)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:44)
+		at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drainAsync(FluxFlattenIterable.java:421)
+		at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drain(FluxFlattenIterable.java:686)
+		at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.onNext(FluxFlattenIterable.java:250)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:73)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:249)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.complete(MonoIgnoreThen.java:284)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onNext(MonoIgnoreThen.java:187)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:232)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203)
+		at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onComplete(MonoIgnoreElements.java:88)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:259)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onComplete(FluxDematerialize.java:121)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:91)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:44)
+		at reactor.core.publisher.FluxIterable$IterableSubscription.fastPath(FluxIterable.java:338)
+		at reactor.core.publisher.FluxIterable$IterableSubscription.request(FluxIterable.java:225)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.request(FluxDematerialize.java:127)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.request(FluxPeek.java:137)
+		at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onSubscribe(MonoIgnoreElements.java:71)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onSubscribe(FluxPeek.java:170)
+		at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onSubscribe(FluxDematerialize.java:77)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:164)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:86)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4150)
+		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:255)
+		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:157)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoCollectList$MonoCollectListSubscriber.onComplete(MonoCollectList.java:128)
+		at reactor.core.publisher.DrainUtils.postCompleteDrain(DrainUtils.java:131)
+		at reactor.core.publisher.DrainUtils.postComplete(DrainUtils.java:186)
+		at reactor.core.publisher.FluxMaterialize$MaterializeSubscriber.onComplete(FluxMaterialize.java:141)
+		at reactor.core.publisher.FluxTake$TakeSubscriber.onComplete(FluxTake.java:152)
+		at reactor.core.publisher.FluxTake$TakeSubscriber.onNext(FluxTake.java:132)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+		at reactor.core.publisher.SerializedSubscriber.onNext(SerializedSubscriber.java:99)
+		at reactor.core.publisher.FluxTimeout$TimeoutMainSubscriber.onNext(FluxTimeout.java:179)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoCollectList$MonoCollectListSubscriber.onComplete(MonoCollectList.java:128)
+		at org.springframework.cloud.commons.publisher.FluxFirstNonEmptyEmitting$FirstNonEmptyEmittingSubscriber.onComplete(FluxFirstNonEmptyEmitting.java:325)
+		at reactor.core.publisher.Operators.complete(Operators.java:136)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:147)
+		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:86)
+		at reactor.core.publisher.Flux.subscribe(Flux.java:8235)
+		at org.springframework.cloud.commons.publisher.FluxFirstNonEmptyEmitting$RaceCoordinator.subscribe(FluxFirstNonEmptyEmitting.java:203)
+		at org.springframework.cloud.commons.publisher.FluxFirstNonEmptyEmitting.subscribe(FluxFirstNonEmptyEmitting.java:128)
+		at reactor.core.publisher.InternalFluxOperator.subscribe(InternalFluxOperator.java:62)
+		at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:54)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4150)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onComplete(FluxSwitchIfEmpty.java:81)
+		at reactor.core.publisher.Operators.complete(Operators.java:136)
+		at reactor.core.publisher.MonoEmpty.subscribe(MonoEmpty.java:45)
+		at reactor.core.publisher.InternalFluxOperator.subscribe(InternalFluxOperator.java:62)
+		at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:54)
+		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:157)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:120)
+		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:73)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:249)
+		at reactor.core.publisher.FluxSubscribeOnCallable$CallableSubscribeOnSubscription.run(FluxSubscribeOnCallable.java:251)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68)
+		at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28)
+		at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at java.base/java.lang.Thread.run(Unknown Source)
+2021-08-26 16:19:26 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-08-26 16:19:31 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://config-server:8888
+2021-08-26 16:19:45 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=elastic-query-web-client,config-client, profiles=[elastic_query_web], label=null, version=8601064c74d939d72ad3d48d7ff53bec96fba6c0, state=null
+2021-08-26 16:19:45 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/OnceUponATimeMathley/spring-cloud-config-server-repository-3/config-client-elastic_query_web.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/OnceUponATimeMathley/spring-cloud-config-server-repository-3/config-client.yml'}]
+2021-08-26 16:19:45 [main] INFO  c.m.d.e.q.w.c.ElasticQueryWebClientApplication - The following profiles are active: elastic_query_web
+2021-08-26 16:19:52 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=05ca80d5-0b25-32d5-910a-9cf58d01e698
+2021-08-26 16:19:52 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-26 16:19:52 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-26 16:19:52 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-26 16:19:54 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8184 (http)
+2021-08-26 16:19:54 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8184"]
+2021-08-26 16:19:54 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-26 16:19:54 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-08-26 16:19:54 [main] INFO  o.a.c.c.C.[.[.[/elastic-query-web-client] - Initializing Spring embedded WebApplicationContext
+2021-08-26 16:19:54 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 8775 ms
+2021-08-26 16:20:00 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-08-26 16:20:01 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3e28af44, org.springframework.security.web.context.SecurityContextPersistenceFilter@56f72909, org.springframework.security.web.header.HeaderWriterFilter@621392ea, org.springframework.security.web.csrf.CsrfFilter@6c75e3bc, org.springframework.security.web.authentication.logout.LogoutFilter@7f77e065, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@686e7513, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@4cc89246, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@413eaf5d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5960f17, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@33891646, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3199a202, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6e67a8c0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3bdbf8d3, org.springframework.security.oauth2.client.web.OAuth2AuthorizationCodeGrantFilter@5cfa2ac5, org.springframework.security.web.session.SessionManagementFilter@23ec63af, org.springframework.security.web.access.ExceptionTranslationFilter@63eea8c4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@8b1202a]
+2021-08-26 16:20:01 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2021-08-26 16:20:02 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-08-26 16:20:02 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2021-08-26 16:20:03 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2021-08-26 16:20:03 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2021-08-26 16:20:03 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2021-08-26 16:20:03 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2021-08-26 16:20:03 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2021-08-26 16:20:03 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2021-08-26 16:20:03 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2021-08-26 16:20:03 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2021-08-26 16:20:03 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2021-08-26 16:20:04 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2021-08-26 16:20:04 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2021-08-26 16:20:04 [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-08-26 16:20:05 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1629994805007 with initial instances count: 2
+2021-08-26 16:20:05 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application ELASTIC-QUERY-WEB-CLIENT with eureka with status UP
+2021-08-26 16:20:05 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1629994805024, current=UP, previous=STARTING]
+2021-08-26 16:20:05 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ELASTIC-QUERY-WEB-CLIENT/0373f7834bee:elastic-query-web-client:8184: registering service...
+2021-08-26 16:20:05 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8184"]
+2021-08-26 16:20:05 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8184 (http) with context path '/elastic-query-web-client'
+2021-08-26 16:20:05 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8184
+2021-08-26 16:20:05 [main] INFO  c.m.d.e.q.w.c.ElasticQueryWebClientApplication - Started ElasticQueryWebClientApplication in 41.263 seconds (JVM running for 44.217)
+2021-08-26 16:20:05 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ELASTIC-QUERY-WEB-CLIENT/0373f7834bee:elastic-query-web-client:8184 - registration status: 204
+2021-08-26 16:20:10 [http-nio-8184-exec-2] INFO  o.a.c.c.C.[.[.[/elastic-query-web-client] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-26 16:20:10 [http-nio-8184-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-08-26 16:20:10 [http-nio-8184-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2021-08-26 16:20:25 [http-nio-8184-exec-5] INFO  c.m.d.e.q.w.c.c.WebSecurityConfig - Username from id token: app_super_user
+2021-08-26 16:21:06 [http-nio-8184-exec-7] INFO  c.m.d.e.q.w.c.api.QueryController - Querying with text java
+2021-08-26 16:21:06 [http-nio-8184-exec-7] INFO  c.m.d.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text java
+2021-08-26 16:21:06 [http-nio-8184-exec-7] INFO  reactor.Mono.FlatMap.1 - | onSubscribe([Fuseable] MonoFlatMap.FlatMapMain)
+2021-08-26 16:21:06 [http-nio-8184-exec-7] INFO  reactor.Mono.FlatMap.1 - | request(unbounded)
+2021-08-26 16:21:13 [reactor-tcp-epoll-2] INFO  reactor.Mono.FlatMap.1 - | onNext(ElasticQueryWebClientAnalyticsResponseModel(queryResponseModels=[ElasticQueryWebClientResponseModel(id=1430226387110088719, userId=1293562790813335554, text=RT @SumitM14455640: #React #Java #javascript  Devs only.
+
+Let's grow together  #follo4folloback #folloback #follobackforfolloback #folllow?, createdAt=2021-08-24T17:51:57Z[UTC]), ElasticQueryWebClientResponseModel(id=1430450135025307648, userId=955289710020124672, text=RT @Doxyaxone: Modern Masochism. #Python #BigData #Analytics #AI #DataScience #IoT #IIoT #Azure #PyTorch #RStats #DotNet #C #CPP #Java #CSh?, createdAt=2021-08-25T08:41:03Z[UTC]), ElasticQueryWebClientResponseModel(id=1430558697571356677, userId=412133001, text=@BrianVerm @DevoxxPL Ok ok the real thing I do is that I imagine them all to be Java devs, createdAt=2021-08-25T15:52:26Z[UTC]), ElasticQueryWebClientResponseModel(id=1429356827939115010, userId=1285154821419544576, text=? Released #archimedes_maven_micronaut 3.0.0 !
+
+Simple pom parent to easily use @micronautfw with #Maven in @java or @kotlin projects.
+
+? https://t.co/6ZQyHXX5FY
+? https://t.co/EJwOKpN2EU, createdAt=2021-08-22T08:16:38Z[UTC])], wordCount=8))
+2021-08-26 16:21:14 [reactor-tcp-epoll-2] INFO  reactor.Mono.FlatMap.1 - | onComplete()
+2021-08-26 16:21:27 [http-nio-8184-exec-9] INFO  c.m.d.e.q.w.c.api.QueryController - Querying with text test
+2021-08-26 16:21:27 [http-nio-8184-exec-9] INFO  c.m.d.e.q.w.c.s.i.TwitterElasticQueryWebClient - Querying by text test
+2021-08-26 16:21:27 [http-nio-8184-exec-9] INFO  reactor.Mono.FlatMap.2 - | onSubscribe([Fuseable] MonoFlatMap.FlatMapMain)
+2021-08-26 16:21:27 [http-nio-8184-exec-9] INFO  reactor.Mono.FlatMap.2 - | request(unbounded)
+2021-08-26 16:21:29 [reactor-tcp-epoll-3] INFO  reactor.Mono.FlatMap.2 - | onNext(ElasticQueryWebClientAnalyticsResponseModel(queryResponseModels=[ElasticQueryWebClientResponseModel(id=1430450337769394188, userId=1309167320296808451, text=RT @parimal2016: Test dene se baat banegi https://t.co/vvYvp0CpZw, createdAt=2021-08-25T08:41:51Z[UTC]), ElasticQueryWebClientResponseModel(id=1430226529192226816, userId=95554946, text=RT @Quotedtwits: *taking a test*
+
+Me: "shi, it's close enough" https://t.co/mFnT4Flc8B, createdAt=2021-08-24T17:52:31Z[UTC]), ElasticQueryWebClientResponseModel(id=1430450291606913025, userId=1372477557300338689, text=RT @Quotedtwits: *taking a test*
+
+Me: "shi, it's close enough" https://t.co/mFnT4Flc8B, createdAt=2021-08-25T08:41:40Z[UTC]), ElasticQueryWebClientResponseModel(id=1430460886439825408, userId=264084182, text=RT @Quotedtwits: *taking a test*
+
+Me: "shi, it's close enough" https://t.co/mFnT4Flc8B, createdAt=2021-08-25T09:23:46Z[UTC]), ElasticQueryWebClientResponseModel(id=1430460940944740354, userId=1089118387723063296, text=RT @Quotedtwits: *taking a test*
+
+Me: "shi, it's close enough" https://t.co/mFnT4Flc8B, createdAt=2021-08-25T09:23:59Z[UTC]), ElasticQueryWebClientResponseModel(id=1430470160062816258, userId=744609903902330884, text=RT @Quotedtwits: *taking a test*
+
+Me: "shi, it's close enough" https://t.co/mFnT4Flc8B, createdAt=2021-08-25T10:00:37Z[UTC]), ElasticQueryWebClientResponseModel(id=1430475344121765888, userId=1272734019495424000, text=RT @Quotedtwits: *taking a test*
+
+Me: "shi, it's close enough" https://t.co/mFnT4Flc8B, createdAt=2021-08-25T10:21:13Z[UTC]), ElasticQueryWebClientResponseModel(id=1430572055926169601, userId=1201448202169241604, text=RT @Quotedtwits: *taking a test*
+
+Me: "shi, it's close enough" https://t.co/mFnT4Flc8B, createdAt=2021-08-25T16:45:31Z[UTC]), ElasticQueryWebClientResponseModel(id=1430431887126843394, userId=21599160, text=RT @TheFigen: My friends, test your lungs! 
+( Me 5 )
+RT @0xRadar 
+
+https://t.co/iFKMsqKy1P, createdAt=2021-08-25T07:28:32Z[UTC]), ElasticQueryWebClientResponseModel(id=1429356672128995331, userId=1122006753124601856, text=RT @simbakarkai: Antigen test kit ???????????
+??????????????????????????????
+
+?????????????????????? ????????
+?? ????? 240 ???
+3???????????, createdAt=2021-08-22T08:16:01Z[UTC]), ElasticQueryWebClientResponseModel(id=1429356320679895040, userId=1244405992202178561, text=RT @zacknchz: @hypland, does this pass the vibe test? ????? ? https://t.co/JIfQMIWiUQ, createdAt=2021-08-22T08:14:37Z[UTC]), ElasticQueryWebClientResponseModel(id=1430477919416057861, userId=901519155999932417, text=RT @AnuSatheesh5: He never gives a test which we cannot pass 
+
+Good Evening https://t.co/qLEcjhoTgL, createdAt=2021-08-25T10:31:27Z[UTC]), ElasticQueryWebClientResponseModel(id=1430450367075164167, userId=873589798451204097, text=RT @REALsaeedajmal: Congratulations team Pakistan winning the test match congrats to @iamfawadalam25 and @iShaheenAfridi  @babarazam25@?????, createdAt=2021-08-25T08:41:58Z[UTC]), ElasticQueryWebClientResponseModel(id=1430572148704256002, userId=1401690483252862976, text=RT @AircraftBy: Virgin Orbit's Boeing 747 completes test flight carrying space rocket ?
+@VirginAtlantic @Virgin @VirginOrbit
+#BOEING #Boein?, createdAt=2021-08-25T16:45:53Z[UTC]), ElasticQueryWebClientResponseModel(id=1430226437496311812, userId=739399418428948481, text=RT @OfficialDGISPR: #Pakistan today conducted a successful test flight of indigenously developed #Fatah-1 (Guided Multi Launch Rocket Syste?, createdAt=2021-08-24T17:52:09Z[UTC]), ElasticQueryWebClientResponseModel(id=1430226450033037314, userId=1115971054005096453, text=RT @OfficialDGISPR: #Pakistan today conducted a successful test flight of indigenously developed #Fatah-1 (Guided Multi Launch Rocket Syste?, createdAt=2021-08-24T17:52:12Z[UTC]), ElasticQueryWebClientResponseModel(id=1430475327512317957, userId=286551068, text=RT @pawinpawin: Study ??????????????? ????? Sensitivity ??? Antigen test kit ?????? Standard F Covid19 Ag FIA / SD (Biosensor) ????????????, createdAt=2021-08-25T10:21:09Z[UTC]), ElasticQueryWebClientResponseModel(id=1430558856858374148, userId=1266865543157612550, text=RT @BCCI: Hello and welcome to the Headingley Stadium for our 3rd Test against England.
+
+#ENGvIND https://t.co/8tDVW8Jxyk, createdAt=2021-08-25T15:53:04Z[UTC]), ElasticQueryWebClientResponseModel(id=1430431958362898432, userId=2704817130, text=RT @OriginalBlair0: The mini audiology booth allows for safe, accurate and reliable hearing test assessment through the attenuation of back?, createdAt=2021-08-25T07:28:49Z[UTC]), ElasticQueryWebClientResponseModel(id=1430432033478635520, userId=1277187398149894144, text=@HawaiiNewsNow Ask the inventor of the test they are using to diagnose covid for the last 20 months. https://t.co/R0JpCZjwaW, createdAt=2021-08-25T07:29:07Z[UTC]), ElasticQueryWebClientResponseModel(id=1430460768965709824, userId=1413526802320871424, text=RT @mipaltan: Preview Time ?? LEEDS TEST ??
+
+? @thebharatarmy talk about Rohit's measured approach and Bumrah's match-winning abilities ahe?, createdAt=2021-08-25T09:23:18Z[UTC]), ElasticQueryWebClientResponseModel(id=1430460701806530566, userId=1176483944373469185, text=RT @HakkenRyou: Yoon SeungHo 
+Painter of The Night by Byeonduck 
+________
+A quick test, I tried my best? https://t.co/5YolV2S4Uy, createdAt=2021-08-25T09:23:02Z[UTC]), ElasticQueryWebClientResponseModel(id=1430226605205450752, userId=1421132353447993356, text=RT @ANI: COVID19 | Kerala reports 24,296 new cases, 173 deaths and 19,349 recoveries today; Test positivity rate at 18.04% https://t.co/Lbu?, createdAt=2021-08-24T17:52:49Z[UTC]), ElasticQueryWebClientResponseModel(id=1429356802773299205, userId=1356865234716164097, text=Forced use of people as test subject is a blatant violation against human rights.
+
+NUG FOR DEMOCRACY
+
+#Aug22Coup 
+#CrimesAgainstHumanity
+#WhatsHappeningInMyanmar https://t.co/zEZzQ2gzgg, createdAt=2021-08-22T08:16:32Z[UTC]), ElasticQueryWebClientResponseModel(id=1430470126470529031, userId=1328917506686259201, text=RT @UENCCLUB: #UENC will update the functions of v1.6.2 on Aug 26
+
+1??Fix the problem of unstable node selection
+2??Increase the test netwo?, createdAt=2021-08-25T10:00:29Z[UTC]), ElasticQueryWebClientResponseModel(id=1430576804432162826, userId=22501382, text=RT @briansetzer59: ONE WEEK AWAY... 
+
+Enter to win a signed vinyl test pressing of Brian's new album, Gotta Have The Rumble! https://t.co/N?, createdAt=2021-08-25T17:04:23Z[UTC]), ElasticQueryWebClientResponseModel(id=1430226475211395078, userId=2474037773, text=RT @RCBTweets: #OnThisDay in 1??9??7??1??, ?? beat ??????? by 4?? wickets to clinch their first-ever Test series in England. ??
+
+Drop a ? i?, createdAt=2021-08-24T17:52:18Z[UTC]), ElasticQueryWebClientResponseModel(id=1430431899512721411, userId=1403447873279307777, text=RT @Team_BabarAzam: Babar Azam as Test Captain:
+
+WON - WON - WON - WON - LOST - WON ??
+
+A new era has begin with Mission WTC 2023 the desti?, createdAt=2021-08-25T07:28:35Z[UTC]), ElasticQueryWebClientResponseModel(id=1430432054890618884, userId=1206774247030509569, text=RT @ICC: Pakistan win by 109 runs and level the series ? 
+
+Shaheen Afridi finishes the match with career-best Test figures of 10/94. 
+
+#WTC?, createdAt=2021-08-25T07:29:12Z[UTC]), ElasticQueryWebClientResponseModel(id=1430576737310679045, userId=1167097446226440192, text=RT @ezeugo_i: CLASSWORK : 2 X 1
+
+TEST: Find the perimeter of a square if it's length is 2cm
+
+EXAM: if the circumference of the sun is half?, createdAt=2021-08-25T17:04:07Z[UTC]), ElasticQueryWebClientResponseModel(id=1429356375180681222, userId=453811004, text=RT @wybsg: Damn! Yibo?s first test shot is 9.4 
+other than cooking what else does my baby not know ?
+
+#WangYibo #??? #??? https://t.co/Fc0M?, createdAt=2021-08-22T08:14:50Z[UTC])], wordCount=26))
+2021-08-26 16:21:29 [reactor-tcp-epoll-3] INFO  reactor.Mono.FlatMap.2 - | onComplete()
