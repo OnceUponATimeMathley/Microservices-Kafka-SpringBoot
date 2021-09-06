@@ -1,0 +1,19 @@
+2021-08-31 23:32:50 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-08-31 23:32:50 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer using Java 11.0.12 on mathleyneutron with PID 61778 (/home/mathleyneutron/Documents/Java/Microservices/microservices-demo/config-server/target/classes started by mathleyneutron in /home/mathleyneutron/Documents/Java/Microservices/microservices-demo)
+2021-08-31 23:32:50 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to default profiles: default
+2021-08-31 23:32:51 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=17454470-01fd-3dd3-94c5-c5c5c6213728
+2021-08-31 23:32:51 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2021-08-31 23:32:51 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2021-08-31 23:32:51 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-31 23:32:51 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-08-31 23:32:51 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-08-31 23:32:51 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 847 ms
+2021-08-31 23:32:51 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/actuator/**'] with []
+2021-08-31 23:32:51 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/encrypt/**'] with []
+2021-08-31 23:32:51 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/decrypt/**'] with []
+2021-08-31 23:32:51 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@61359e87, org.springframework.security.web.context.SecurityContextPersistenceFilter@75882261, org.springframework.security.web.header.HeaderWriterFilter@3fde2209, org.springframework.security.web.csrf.CsrfFilter@52abed9d, org.springframework.security.web.authentication.logout.LogoutFilter@2a0b901c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7558633, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@16cf8438, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2dc39b53, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@71936a92, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@615efd1c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@372f0a99, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@45037e16, org.springframework.security.web.session.SessionManagementFilter@67acfde9, org.springframework.security.web.access.ExceptionTranslationFilter@3c54ddec, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@285a4fe3]
+2021-08-31 23:32:52 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2021-08-31 23:32:56 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2021-08-31 23:32:57 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2021-08-31 23:32:58 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2021-08-31 23:32:58 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 8.882 seconds (JVM running for 9.686)

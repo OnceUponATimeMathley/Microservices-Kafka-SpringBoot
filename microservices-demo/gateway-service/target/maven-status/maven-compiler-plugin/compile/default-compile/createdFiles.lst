@@ -1,0 +1,8 @@
+com/microservices/demo/gateway/service/GatewayServiceApplication.class
+com/microservices/demo/gateway/service/controller/FallbackController.class
+com/microservices/demo/gateway/service/model/QueryServiceFallbackModel$QueryServiceFallbackModelBuilder.class
+com/microservices/demo/gateway/service/model/AnalyticsDataFallbackModel$AnalyticsDataFallbackModelBuilder.class
+com/microservices/demo/gateway/service/model/AnalyticsDataFallbackModel.class
+com/microservices/demo/gateway/service/config/GatewayConfig.class
+com/microservices/demo/gateway/service/config/WebSecurityConfig.class
+com/microservices/demo/gateway/service/model/QueryServiceFallbackModel.class

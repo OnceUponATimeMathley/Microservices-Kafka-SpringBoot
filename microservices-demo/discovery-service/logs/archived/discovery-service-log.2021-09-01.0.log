@@ -1,0 +1,70 @@
+2021-09-01 00:29:00 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-09-01 00:29:00 [main] INFO  c.m.d.d.s.ServiceRegistrationAndDiscoveryServiceApplication - Starting ServiceRegistrationAndDiscoveryServiceApplication using Java 11.0.12 on mathleyneutron with PID 134525 (/home/mathleyneutron/Documents/Java/Microservices/microservices-demo/discovery-service/target/classes started by mathleyneutron in /home/mathleyneutron/Documents/Java/Microservices/microservices-demo)
+2021-09-01 00:29:00 [main] INFO  c.m.d.d.s.ServiceRegistrationAndDiscoveryServiceApplication - The following profiles are active: singleserver
+2021-09-01 00:29:00 [main] WARN  o.s.b.c.config.ConfigDataEnvironment - Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 39:13]
+2021-09-01 00:29:00 [main] WARN  o.s.b.c.config.ConfigDataEnvironment - Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 25:13]
+2021-09-01 00:29:01 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=cb4e75cf-227a-3e16-b747-85cc837d8dd5
+2021-09-01 00:29:01 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8761 (http)
+2021-09-01 00:29:01 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8761"]
+2021-09-01 00:29:01 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-01 00:29:01 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-09-01 00:29:01 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-01 00:29:01 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 987 ms
+2021-09-01 00:29:01 [main] INFO  c.s.j.s.i.a.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2021-09-01 00:29:03 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2021-09-01 00:29:04 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2021-09-01 00:29:04 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses Jersey
+2021-09-01 00:29:04 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-09-01 00:29:04 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2021-09-01 00:29:04 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-09-01 00:29:04 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application SERVICE-REGISTRY-CLUSTER with eureka with status UP
+2021-09-01 00:29:04 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Setting the eureka configuration..
+2021-09-01 00:29:04 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8761"]
+2021-09-01 00:29:04 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+2021-09-01 00:29:04 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+2021-09-01 00:29:04 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8761 (http) with context path ''
+2021-09-01 00:29:04 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8761
+2021-09-01 00:29:04 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+2021-09-01 00:29:05 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2021-09-01 00:29:05 [main] INFO  c.m.d.d.s.ServiceRegistrationAndDiscoveryServiceApplication - Started ServiceRegistrationAndDiscoveryServiceApplication in 6.906 seconds (JVM running for 7.529)
+2021-09-01 00:29:06 [RMI TCP Connection(7)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-01 00:29:06 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-01 00:29:06 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-09-01 00:29:21 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application SERVICE-REGISTRY-CLUSTER with eureka with status DOWN
+2021-09-01 00:29:21 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Shutting down Eureka Server..
+2021-09-01 00:29:21 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka Service is now shutdown...
+2021-09-01 00:42:32 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-09-01 00:42:32 [main] INFO  c.m.d.d.s.ServiceRegistrationAndDiscoveryServiceApplication - Starting ServiceRegistrationAndDiscoveryServiceApplication using Java 11.0.12 on mathleyneutron with PID 136932 (/home/mathleyneutron/Documents/Java/Microservices/microservices-demo/discovery-service/target/classes started by mathleyneutron in /home/mathleyneutron/Documents/Java/Microservices/microservices-demo)
+2021-09-01 00:42:32 [main] INFO  c.m.d.d.s.ServiceRegistrationAndDiscoveryServiceApplication - The following profiles are active: singleserver
+2021-09-01 00:42:32 [main] WARN  o.s.b.c.config.ConfigDataEnvironment - Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 39:13]
+2021-09-01 00:42:32 [main] WARN  o.s.b.c.config.ConfigDataEnvironment - Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 25:13]
+2021-09-01 00:42:33 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=cb4e75cf-227a-3e16-b747-85cc837d8dd5
+2021-09-01 00:42:33 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8761 (http)
+2021-09-01 00:42:33 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8761"]
+2021-09-01 00:42:33 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-01 00:42:33 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-09-01 00:42:33 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-01 00:42:33 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 964 ms
+2021-09-01 00:42:33 [main] INFO  c.s.j.s.i.a.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2021-09-01 00:42:35 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2021-09-01 00:42:36 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2021-09-01 00:42:36 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses Jersey
+2021-09-01 00:42:36 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-09-01 00:42:36 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2021-09-01 00:42:36 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-09-01 00:42:36 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application SERVICE-REGISTRY-CLUSTER with eureka with status UP
+2021-09-01 00:42:36 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Setting the eureka configuration..
+2021-09-01 00:42:36 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8761"]
+2021-09-01 00:42:36 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+2021-09-01 00:42:36 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+2021-09-01 00:42:36 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8761 (http) with context path ''
+2021-09-01 00:42:36 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8761
+2021-09-01 00:42:36 [Thread-9] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+2021-09-01 00:42:37 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2021-09-01 00:42:37 [main] INFO  c.m.d.d.s.ServiceRegistrationAndDiscoveryServiceApplication - Started ServiceRegistrationAndDiscoveryServiceApplication in 6.886 seconds (JVM running for 7.672)
+2021-09-01 00:42:37 [http-nio-8761-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-01 00:42:37 [http-nio-8761-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-01 00:42:37 [http-nio-8761-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-09-01 00:43:53 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application SERVICE-REGISTRY-CLUSTER with eureka with status DOWN
+2021-09-01 00:43:53 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Shutting down Eureka Server..
+2021-09-01 00:43:53 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka Service is now shutdown...

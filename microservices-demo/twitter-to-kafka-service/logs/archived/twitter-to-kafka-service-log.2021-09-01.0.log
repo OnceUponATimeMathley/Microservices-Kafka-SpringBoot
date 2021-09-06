@@ -1,0 +1,82 @@
+2021-09-01 00:27:39 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2021-09-01 00:27:40 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=twitter-to-kafka-service,config-client, profiles=[twitter_to_kafka], label=null, version=73ec620e0e4cbbcccf005c7f966a02d60ff037a6, state=null
+2021-09-01 00:27:40 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/OnceUponATimeMathley/spring-cloud-config-server-repository-3/config-client-twitter_to_kafka.yml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/OnceUponATimeMathley/spring-cloud-config-server-repository-3/config-client.yml'}]
+2021-09-01 00:27:40 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - The following profiles are active: twitter_to_kafka
+2021-09-01 00:27:41 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=40c6ca3a-d753-3613-bebd-bb6ea0b10a46
+2021-09-01 00:27:41 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.retry.annotation.RetryConfiguration' of type [org.springframework.retry.annotation.RetryConfiguration$$EnhancerBySpringCGLIB$$94ae4913] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-01 00:27:41 [main] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	bootstrap.servers = [localhost:19092, localhost:29092, localhost:39092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2021-09-01 00:27:41 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 2.8.0
+2021-09-01 00:27:41 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: ebb1d6e21cc92130
+2021-09-01 00:27:41 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1630430861711
+2021-09-01 00:27:41 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2021-09-01 00:27:41 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2021-09-01 00:27:41 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2021-09-01 00:27:41 [main] INFO  o.s.b.a.s.r.ReactiveUserDetailsServiceAutoConfiguration - 
+
+Using generated security password: b6231685-6d54-4b7a-8771-27798e03b0f5
+
+2021-09-01 00:27:43 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2021-09-01 00:27:44 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2021-09-01 00:27:44 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8181
+2021-09-01 00:27:45 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2021-09-01 00:27:46 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2021-09-01 00:27:46 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 9.767 seconds (JVM running for 10.626)
+2021-09-01 00:27:46 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2021-09-01 00:27:46 [main] INFO  c.m.d.k.a.client.KafkaAdminClient - Creating 2 topics(s), attempt 0
+2021-09-01 00:27:46 [main] INFO  c.m.d.k.a.client.KafkaAdminClient - Create topic result [KafkaFuture{value=null,exception=null,done=false}, KafkaFuture{value=null,exception=null,done=false}]
+2021-09-01 00:27:46 [main] INFO  c.m.d.k.a.client.KafkaAdminClient - Reading kafka topic [twitter-topic, twitter-analytics-topic], attempt 0
