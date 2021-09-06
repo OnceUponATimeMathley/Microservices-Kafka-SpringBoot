@@ -108,7 +108,7 @@ services:
       - elastic-2
       - elastic-3
     environment:
-      - "JAVA_OPTS=-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5008 -Xms32m -Xmx128m"
+      - "JAVA_OPTS=-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5008 -Xms32m -Xmx110m"
       - "LOGGING_LEVEL_COM_MICROSERVICES_DEMO=info"
       - "LOGGING_LEVEL_ROOT=info"
       - "ELASTIC-CONFIG_INDEX-NAME=twitter-index"
@@ -146,7 +146,7 @@ services:
       - elastic-2
       - elastic-3
     environment:
-      - "JAVA_OPTS=-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5009 -Xms32m -Xmx128m"
+      - "JAVA_OPTS=-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5009 -Xms32m -Xmx110m"
       - "LOGGING_LEVEL_COM_MICROSERVICES_DEMO=info"
       - "LOGGING_LEVEL_ROOT=info"
       - "ELASTIC-CONFIG_INDEX-NAME=twitter-index"
@@ -216,7 +216,7 @@ services:
     depends_on:
       - config-server
     environment:
-      - "JAVA_OPTS=-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5012 -Xms32m -Xmx200m"
+      - "JAVA_OPTS=-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5012 -Xms32m -Xmx180m"
       - "LOGGING_LEVEL_COM_MICROSERVICES_DEMO=debug"
       - "LOGGING_LEVEL_ROOT=debug"
       - "SERVER_PORT=8187"
@@ -244,7 +244,7 @@ services:
     depends_on:
       - config-server
     environment:
-      - "JAVA_OPTS=-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5013 -Xms32m -Xmx200m"
+      - "JAVA_OPTS=-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5013 -Xms32m -Xmx180m"
       - "LOGGING_LEVEL_COM_MICROSERVICES_DEMO=info"
       - "LOGGING_LEVEL_ROOT=info"
       - "SERVER_PORT=8188"
@@ -269,7 +269,7 @@ services:
     volumes:
       - "./docker-logs:/workspace/discovery-service/logs"
     environment:
-      - "JAVA_OPTS=-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5014 -Xms16m -Xmx50m"
+      - "JAVA_OPTS=-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5014 -Xms16m -Xmx40m"
       - "LOGGING_LEVEL_ROOT=info"
       - "SERVER_PORT=8761"
       - "SPRING_PROFILES_ACTIVE=peer1"
@@ -284,7 +284,7 @@ services:
     volumes:
       - "./docker-logs:/workspace/discovery-service/logs"
     environment:
-      - "JAVA_OPTS=-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5015 -Xms16m -Xmx50m"
+      - "JAVA_OPTS=-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5015 -Xms16m -Xmx40m"
       - "LOGGING_LEVEL_ROOT=info"
       - "SERVER_PORT=8762"
       - "SPRING_PROFILES_ACTIVE=peer2"
@@ -295,7 +295,7 @@ services:
     image: ${GROUP_ID}/gateway.service:${SERVICE_VERSION:-latest}
     ports:
       - "5016:5016"
-      - "9090:9090"
+      - "9092:9092"
     volumes:
       - "./docker-logs:/workspace/gateway-service/logs"
       - "./check-config-server-started.sh:/usr/local/bin/check-config-server-started.sh"
@@ -305,9 +305,9 @@ services:
     links:
       - "redis-master:redis"
     environment:
-      - "JAVA_OPTS=-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5016 -Xms16m -Xmx64m"
+      - "JAVA_OPTS=-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5016 -Xms16m -Xmx40m"
       - "LOGGING_LEVEL_ROOT=debug"
-      - "SERVER_PORT=9090"
+      - "SERVER_PORT=9092"
       - "SPRING_CLOUD_CONFIG_URI=http://config-server:8888"
       - "SPRING_REDIS_HOST=redis"
       - "EUREKA_CLIENT_SERVICE-URL_DEFAULT-ZONE=http://discovery-service-2:8762/eureka/,http://discovery-service-1:8761/eureka/"

@@ -25,3 +25,5 @@
 /microservices-demo/twitter-to-kafka-service/.settings/*
 /microservices-demo/twitter-to-kafka-service/target/*
 /microservices-demo/twitter-to-kafka-service/twitter-to-kafka-service.iml
+/microservices-demo/docker-compose/grafana/sessions/*
+/microservices-demo/docker-compose/grafana/png/*

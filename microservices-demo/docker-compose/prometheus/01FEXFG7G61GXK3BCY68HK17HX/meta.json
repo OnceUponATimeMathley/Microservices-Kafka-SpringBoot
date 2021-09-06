@@ -1,0 +1,17 @@
+{
+	"ulid": "01FEXFG7G61GXK3BCY68HK17HX",
+	"minTime": 1630918627482,
+	"maxTime": 1630922400000,
+	"stats": {
+		"numSamples": 49208,
+		"numSeries": 791,
+		"numChunks": 791
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01FEXFG7G61GXK3BCY68HK17HX"
+		]
+	},
+	"version": 1
+}

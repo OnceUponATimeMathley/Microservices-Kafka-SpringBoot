@@ -1,0 +1,17 @@
+{
+	"ulid": "01FEXK3KFWSN44VTAYDG7DC3MV",
+	"minTime": 1630922400000,
+	"maxTime": 1630929600000,
+	"stats": {
+		"numSamples": 94920,
+		"numSeries": 791,
+		"numChunks": 791
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01FEXK3KFWSN44VTAYDG7DC3MV"
+		]
+	},
+	"version": 1
+}
